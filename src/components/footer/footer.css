@@ -1,24 +1,25 @@
 @media screen and (max-width: 480px) {
   .copyright {
     float: none !important;
-    text-align: center;
     padding-left: 0;
   }
   .logo {
     float: none !important;
-    text-align: center;
     padding-right: 0;
   }
 }
 
 .copyright {
   float: left;
-  padding-left: 15px;
   padding-bottom: 15px;
 }
 
 .logo {
   float: right;
-  padding-right: 15px;
   padding-bottom: 15px;
+}
+
+.footer {
+  background-color: #111827;
+  padding-top: 10px;
 }

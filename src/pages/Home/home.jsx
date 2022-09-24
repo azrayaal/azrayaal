@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="App">
       <Navbaar />
-      <Loader />
+      {/* <Loader /> */}
       {/* <header className="App-header"></header> */}
       <Dasboard />
       <Futer />

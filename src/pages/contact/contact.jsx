@@ -2,7 +2,7 @@ import React from 'react';
 import Futer from '../../components/footer/footer';
 import Navbaar from '../../components/navbar/navbar';
 import { Link } from 'react-router-dom';
-import './contact.css';
+// import './contact.css';
 
 export default function Contact() {
   return (

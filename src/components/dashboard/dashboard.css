@@ -1,11 +1,5 @@
 .dashboard {
-  /* min-height: 80vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin); */
-  padding-top: 85px;
+  padding-top: 50px;
   color: white;
 }
 
@@ -15,21 +9,22 @@
   padding-top: 120px;
 }
 
+.tombol-arrow {
+}
+
 .bx-right-arrow-alt {
   animation: bounce3 2s infinite;
   color: #fbfbfb;
 }
 
-.bx-right-arrow-alt:hover {
-  color: red;
-}
-
 .tombolHome:hover {
-  color: red;
+  color: #13fbe2;
   transition-duration: 0.3s;
 }
 
-/* .tombolHome a {
-  text-decoration: none;
-  color: white;
-} */
+.typewritter {
+  font-family: 'Inconsolata', monospace;
+  font-weight: semi-bold;
+}
+
+/* text decoration */

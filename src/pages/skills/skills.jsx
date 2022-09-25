@@ -4,7 +4,7 @@ import Navbaar from '../../components/navbar/navbar';
 import { Link } from 'react-router-dom';
 import './skills.css';
 
-export default function About() {
+export default function Skills() {
   const [fadeIntxt, setFadeInText] = useState(false);
 
   const changeBackgroundNavbar = () => {
@@ -22,43 +22,51 @@ export default function About() {
     <>
       <div className="App">
         <Navbaar />
-        {/* <div className="dashboarBio"> */}
-        <section class="about-us pt-5" id="about-us">
+
+        <section class="skillpage pt-5" id="about-us">
           <div class="container">
             {/* //////////////// */}
             <div class="row align-items-center">
-              <div class="dashboarBio">
-                <p class="glitch">skills </p>
-                <p class="fs-5">
-                  bio
-                  <span style={{ color: '#13fbe2' }}> & </span>
-                  stacks
-                </p>
+              <div class="dashboardSkills">
+                <span>
+                  <p class="glitch">skills </p>
+                  <p class="fs-5">
+                    bio
+                    <span style={{ color: '#13fbe2' }}> & </span>
+                    stacks
+                  </p>
+                  <a class="buttonmainskill" href="#skill">
+                    <i class="bx bx-chevrons-down fs-1" />
+                  </a>
+                </span>
               </div>
-              <a class="buttonkebawah" href="#skill">
-                <i class="bx bx-chevrons-down fs-1" />
-              </a>
             </div>
             {/* //////////////// */}
-            <div id="skill" className={fadeIntxt ? 'row align-items-center fadeInAbout visible' : 'row align-items-center fadeInAbout'}>
-              <div class="dashboardSkill ">
-                <h2>I Have learning to use Javascript language for latest one year and using it, I have used its library to create website more powerful and responsive...</h2>
-                <a class="buttonkebawahskills" href="#skill2">
-                  <i class="bx bx-chevrons-down fs-1" />
-                </a>
+            <div>
+              <div id="skill" className={fadeIntxt ? 'row align-items-center fadeInAbout visible' : 'row align-items-center fadeInAbout'}>
+                <div class="dashboardSkills2 ">
+                  <span>
+                    <h2>I Have learning to use Javascript language for latest one year and using it, I have used its library to create website more powerful and responsive...</h2>
+                    <a class="buttonkebawahskills" href="#skill2">
+                      <i class="bx bx-chevrons-down fs-1" />
+                    </a>
+                  </span>
+                </div>
               </div>
             </div>
             {/* //////////////// */}
             <div className={fadeIntxt ? 'row align-items-center fadeInAbout visible' : 'row align-items-center fadeInAbout'}>
-              <div class="dashboardSkill2 " id="skill2">
-                <h2>I am currently working as aFull Stack Developerat public appraiser company in Jakarta. I enjoy building and enhance the web apps using Laravel and Vue JS . I also have a good taste inUI/UX Design</h2>
-                <button className="btn btn-success mt-3">download CV</button>
-                <div className="row">
-                  <Link class="tombolSkills " to="/skills">
-                    <span className="textskill">projects</span>
-                    <i class="bx bx-right-arrow-alt "></i>
-                  </Link>
-                </div>
+              <div class="dashboardSkill3 " id="skill2">
+                <span>
+                  <h2>I am currently working as aFull Stack Developerat public appraiser company in Jakarta. I enjoy building and enhance the web apps using Laravel and Vue JS . I also have a good taste inUI/UX Design</h2>
+                  <button className="btn btn-success mt-3 mb-4">download CV</button>
+                  <div className="row">
+                    <Link class="tombolSkills " to="/project">
+                      <span className="textskill">projects</span>
+                      <i class="bx bx-right-arrow-alt "></i>
+                    </Link>
+                  </div>
+                </span>
               </div>
               {/* <div class="buttonhidden " to="#">
                 <i class="bx bx-chevrons-down" />

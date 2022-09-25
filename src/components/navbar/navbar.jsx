@@ -7,7 +7,7 @@ import logo from './azrayaal.png';
 
 function Navbaar() {
   return (
-    <Navbar className="sticky-top" expand="lg">
+    <Navbar className="f-top" expand="lg">
       <Container fluid>
         <Link to="/" className="text-light navbarlogo">
           <img src={logo} alt="" className="logoazra" />
@@ -21,7 +21,7 @@ function Navbaar() {
             <Link to="/skills" className="mx-3 text-light navbarmenu">
               Skills
             </Link>
-            <Link to="/projects" className="mx-3 text-light navbarmenu">
+            <Link to="/project" className="mx-3 text-light navbarmenu">
               Projetcs
             </Link>
             <Link to="/contact" className="mx-3 text-light navbarmenu">

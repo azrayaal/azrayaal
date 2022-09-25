@@ -28,29 +28,33 @@ export default function About() {
             {/* //////////////// */}
             <div class="row align-items-center">
               <div class="dashboarBio">
-                <p class="glitch">about </p>
-                <p class="fs-5">
-                  bio
-                  <span style={{ color: '#13fbe2' }}> & </span>
-                  resume
-                </p>
+                <span>
+                  <p class="glitch">about </p>
+                  <p class="fs-5">
+                    bio
+                    <span style={{ color: '#13fbe2' }}> & </span>
+                    resume
+                  </p>
+                  <a href="#aboutnih">
+                    <i class="bx bx-chevrons-down fs-1" />
+                  </a>
+                </span>
               </div>
-              <a class="buttonkebawah" href="#aboutnih">
-                <i class="bx bx-chevrons-down fs-1" />
-              </a>
             </div>
             {/* //////////////// */}
             <div className={fadeIntxt ? 'row align-items-center fadeInAbout visible' : 'row align-items-center fadeInAbout'}>
               <div class="dashboardAbout ">
-                <h2 id="aboutnih">I am currently working as aFull Stack Developerat public appraiser company in Jakarta. I enjoy building and enhance the web apps using Laravel and Vue JS . I also have a good taste inUI/UX Design</h2>
-                <button className="btn btn-success mt-3">download CV</button>
-              </div>
-              <Link class="tombolSkills " to="/skills">
-                <span className="textskill">skills</span>
-                <i class="bx bx-right-arrow-alt "></i>
-              </Link>
-              <div class="buttonhidden " to="#">
-                <i class="bx bx-chevrons-down" />
+                <span>
+                  <h2 id="aboutnih">I am currently working as aFull Stack Developerat public appraiser company in Jakarta. I enjoy building and enhance the web apps using Laravel and Vue JS . I also have a good taste inUI/UX Design</h2>
+                  <button className="btn btn-success mt-3 mb-4">download CV</button>
+                  <br />
+                  <Link class="tombolSkills " to="/skills">
+                    <span className="textskill">
+                      skills
+                      <i class="bx bx-right-arrow-alt "></i>
+                    </span>
+                  </Link>
+                </span>
               </div>
             </div>
             {/* //////////////// */}

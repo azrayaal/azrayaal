@@ -1,12 +1,27 @@
-.dashboardSkill {
-  padding-top: 25%;
-  height: 100vh;
+.dashboardSkills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 86.8vh;
+  color: white;
 }
-.dashboardSkill2 {
-  padding-top: 25%;
+
+.dashboardSkills2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-  padding-left: 20px;
-  padding-right: 20px;
+  color: white;
+}
+.bx-chevrons-down {
+  padding-top: 110px;
+}
+
+.dashboardSkill3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   color: white;
 }
 
@@ -14,11 +29,27 @@
   padding-left: 20px;
   padding-right: 20px;
   color: white;
+  text-align: justify;
+}
+.dashboardSkills2 h2 {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  text-align: justify;
+}
+.dashboardSkill3 h2 {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  text-align: justify;
 }
 
 .buttonkebawahskills {
   margin-top: 30px;
 }
 
-.tombolSkills {
+@media screen and (max-width: 480px) {
+  .dashboardSkills {
+    padding-bottom: 100px;
+  }
 }

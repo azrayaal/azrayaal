@@ -1,0 +1,23 @@
+.dashboardProjects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 86.8vh;
+  color: white;
+}
+.dashboardProject2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .dashboardProjects {
+    padding-bottom: 100px;
+  }
+  .dashboardProject2 {
+    padding-bottom: 50px;
+  }
+}

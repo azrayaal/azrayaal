@@ -1,15 +1,18 @@
-.dashboard {
-  padding-top: 50px;
+.dashboardHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 86.8vh;
   color: white;
 }
 
 .tombolHome {
   text-decoration: none;
   color: white;
-  padding-top: 120px;
+  padding-top: 50px;
 }
 
-.tombol-arrow {
+.glitchHi {
 }
 
 .bx-right-arrow-alt {
@@ -28,3 +31,9 @@
 }
 
 /* text decoration */
+
+@media screen and (max-width: 480px) {
+  .dashboardHome {
+    padding-bottom: 100px;
+  }
+}

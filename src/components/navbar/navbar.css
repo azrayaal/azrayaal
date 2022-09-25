@@ -29,6 +29,10 @@
   padding-top: 10px;
 }
 
+.fixed-top {
+  background-color: red;
+}
+
 @media screen and (max-width: 480px) {
   .logoazra {
     width: 150px;

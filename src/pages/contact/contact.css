@@ -1,0 +1,49 @@
+.containerContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.emailaz {
+  text-decoration: none;
+  color: #13fbe2;
+}
+
+.emailaz:hover {
+  color: white;
+}
+
+.bxs-envelope {
+  padding-right: 5px;
+  vertical-align: middle;
+  color: white;
+  /* color: #13fbe2; */
+  animation: bouncetop 1s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.5, 0.05, 1, 0.5);
+  animation-iteration-count: infinite;
+}
+
+@keyframes bouncetop {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 5px, 0);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .containerContact {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .containerContact h1 {
+    font-size: 25px;
+  }
+  .emaiil {
+    font-size: 25px;
+    /* background-color: red; */
+  }
+}

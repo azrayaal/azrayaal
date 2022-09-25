@@ -27,6 +27,7 @@
 #navbarasli {
   font-family: 'Poppins', sans-serif !important;
   padding-top: 10px;
+  color: white !important;
 }
 
 .fixed-top {
@@ -37,4 +38,9 @@
   .logoazra {
     width: 150px;
   }
+}
+
+#navbarasli .active {
+  /* background-color: red !important; */
+  color: #61dafb;
 }

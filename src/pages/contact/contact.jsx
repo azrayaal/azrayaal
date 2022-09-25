@@ -11,7 +11,7 @@ export default function Contact() {
         <Navbaar />
         <div className="containerContact">
           <span>
-            <h1 className="text-white">have an idea to turn a cool sites</h1>
+            <h1 className="text-white">want to turn your idea into a cool sites?</h1>
             <br />
             <a href="" className="fs-3 emailaz">
               <i class="bx bxs-envelope"></i>

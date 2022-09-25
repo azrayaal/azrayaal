@@ -1,0 +1,16 @@
+.logoTools img {
+  filter: grayscale(100%);
+  transition: all linear 0.25s;
+  height: 5rem;
+  width: 5rem;
+}
+.logoTools img:hover {
+  filter: grayscale(0%);
+}
+
+@media screen and (max-width: 480px) {
+  .logoTools img {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+}

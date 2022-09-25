@@ -1,0 +1,16 @@
+.logoBahasa img {
+  filter: grayscale(100%);
+  transition: all linear 0.25s;
+  height: 5rem;
+  width: 5rem;
+}
+.logoBahasa img:hover {
+  filter: grayscale(0%);
+}
+
+@media screen and (max-width: 480px) {
+  .logoBahasa img {
+    height: 3rem;
+    width: 3rem;
+  }
+}

@@ -36,7 +36,7 @@ export default function About() {
                     resume
                   </p>
                   <a href="#aboutnih">
-                    <i class="bx bx-chevrons-down fs-1" />
+                    <i class="bx bx-chevrons-down  fs-1" />
                   </a>
                 </span>
               </div>

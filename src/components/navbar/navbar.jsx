@@ -19,7 +19,7 @@ function CustomLink({ to, children, ...props }) {
 function Navbaar() {
   return (
     <Navbar className="f-top" expand="lg">
-      <Container fluid>
+      <div className="container-fluid">
         <CustomLink to="/" className="text-light navbarlogo">
           <img src={logo} alt="" className="logoazra" />
         </CustomLink>
@@ -32,7 +32,7 @@ function Navbaar() {
             <CustomLink to="/contact">Contacts</CustomLink>
           </Nav>
         </Navbar.Collapse>
-      </Container>
+      </div>
     </Navbar>
   );
 }

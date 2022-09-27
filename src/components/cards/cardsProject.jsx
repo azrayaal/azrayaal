@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export default function CardsProject() {
   return (
-    <div className="container ">
+    <div className="container-fluid ">
       <div class="row g-3">
         <div class="col-md-3 col-6 ">
           <div class="card" style={{}}>

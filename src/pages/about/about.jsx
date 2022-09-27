@@ -117,11 +117,18 @@ export default function About() {
             <div className="row align-items-center fadeInAbout" ref={fadeinAboutRef}>
               <div class="dashboardAbout ">
                 <span>
-                  <h2 id="aboutnih">I am currently working as aFull Stack Developerat public appraiser company in Jakarta. I enjoy building and enhance the web apps using Laravel and Vue JS . I also have a good taste inUI/UX Design</h2>
-                  <button className="btn btn-success mt-3 mb-4">download CV</button>
+                  <div id="aboutnih" className="fs-4">
+                    I am enjoy building web apps using Javascript and ReactJs. I also have a good taste inUI/UX Design
+                  </div>
+                  {/* <div class="text-center">
+                    <button type="button" class="fill mt-3 mb-4">
+                      download CV
+                    </button>
+                  </div> */}
+                  <button className="btnCV mt-3 mb-4 ">download CV</button>
                   <br />
                   <Link class="tombolSkills " to="/skills">
-                    <span className="textskill">
+                    <span className="textskill fs-5">
                       skills
                       <i class="bx bx-right-arrow-alt "></i>
                     </span>

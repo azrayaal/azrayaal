@@ -89,3 +89,55 @@
     padding-bottom: 100px;
   }
 }
+
+/* button baru download cv*/
+
+.fill {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Inconsolata', monospace;
+  /* font-weight: semi-bold; */
+  letter-spacing: 1px;
+  padding: 5px 15px;
+  outline: 0;
+  border: 1px solid white;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+}
+
+.fill::after {
+  content: '';
+  background-color: #0fc8b4;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.fill:hover::after {
+  top: 0px;
+  left: 0px;
+}
+
+.btnCV {
+  border: 2px solid #13fbe2;
+  background-color: #13fbe2;
+  color: black;
+  padding: 5px 15px;
+  border-radius: 105px;
+  /* font-size: 16px; */
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btnCV:hover {
+  border: 2px solid #0fc8b4;
+  background-color: #0fc8b4;
+  color: white;
+  transition: 0.3s;
+}

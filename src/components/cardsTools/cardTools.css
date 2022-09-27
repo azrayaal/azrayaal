@@ -1,8 +1,8 @@
 .logoTools img {
   filter: grayscale(100%);
   transition: all linear 0.25s;
-  height: 5rem;
-  width: 5rem;
+  height: 3rem;
+  width: 3rem;
 }
 .logoTools img:hover {
   filter: grayscale(0%);

@@ -9,7 +9,29 @@ export default function Project() {
   const textProjectRef = useRef(null);
   const arrowRef = useRef(null);
   const detailTextRef = useRef(null);
+  const projectRef = useRef(null);
   gsap.registerPlugin(ScrollTrigger);
+
+  useEffect(() => {
+    const el = projectRef.current;
+    gsap.fromTo(
+      el,
+      {
+        opacity: 0,
+      },
+      {
+        opacity: 1,
+        y: 0,
+        scrollTrigger: {
+          trigger: el,
+          start: 'top center',
+          end: 'top 100px',
+          scrub: true,
+          toggleActions: 'play reverse play reverse',
+        },
+      }
+    );
+  }, []);
 
   useEffect(() => {
     const el = textProjectRef.current;
@@ -17,16 +39,16 @@ export default function Project() {
       el,
       {
         opacity: 0,
-        x: 200,
-        y: -200,
+        x: 100,
+        y: -100,
         ease: Power3.easeInOut,
-        duration: 2,
+        duration: 1,
       },
       {
         opacity: 1,
         x: 0,
         y: 0,
-        duration: 2,
+        duration: 1,
       }
     );
   }, []);
@@ -39,13 +61,13 @@ export default function Project() {
         x: -200,
         y: 200,
         ease: Power3.easeInOut,
-        duration: 2,
+        duration: 1,
       },
       {
         opacity: 1,
         x: 0,
         y: 0,
-        duration: 2,
+        duration: 1,
       }
     );
   }, []);
@@ -57,12 +79,12 @@ export default function Project() {
         opacity: 0,
         y: 200,
         ease: Power3.easeInOut,
-        duration: 2,
+        duration: 1,
       },
       {
         opacity: 1,
         y: 0,
-        duration: 2,
+        duration: 1,
       }
     );
   }, []);
@@ -90,7 +112,7 @@ export default function Project() {
               </div>
             </div>
             {/* CARDS PROJECT */}
-            <div id="project" className="row align-items-center">
+            <div id="project" className="row align-items-center" ref={projectRef}>
               <div className="dashboardProject2">
                 <CardsProject />
               </div>

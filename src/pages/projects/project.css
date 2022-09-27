@@ -14,6 +14,10 @@
   color: white;
 }
 
+#project {
+  opacity: 0;
+}
+
 @media screen and (max-width: 480px) {
   .dashboardProjects {
     padding-bottom: 100px;

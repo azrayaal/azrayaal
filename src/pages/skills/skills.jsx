@@ -65,12 +65,12 @@ export default function Skills() {
         opacity: 0,
         y: 200,
         ease: Power3.easeInOut,
-        duration: 1.5,
+        duration: 1,
       },
       {
         opacity: 1,
         y: 0,
-        duration: 1.5,
+        duration: 1,
       }
     );
   }, []);
@@ -82,12 +82,12 @@ export default function Skills() {
         opacity: 0,
         y: -400,
         ease: Power3.easeInOut,
-        duration: 1.5,
+        duration: 1,
       },
       {
         opacity: 1,
         y: 0,
-        duration: 1.5,
+        duration: 1,
       }
     );
   }, []);
@@ -99,12 +99,12 @@ export default function Skills() {
         opacity: 0,
         y: -200,
         ease: Power3.easeInOut,
-        duration: 1.5,
+        duration: 1,
       },
       {
         opacity: 1,
         y: 0,
-        duration: 1.5,
+        duration: 1,
       }
     );
   }, []);
@@ -122,7 +122,7 @@ export default function Skills() {
                     skills
                   </p>
                   <p class="fs-5" ref={detailsRef}>
-                    bio
+                    techs
                     <span style={{ color: '#13fbe2' }}> & </span>
                     stacks
                   </p>
@@ -137,7 +137,10 @@ export default function Skills() {
               <div id="skill" className="row align-items-center" ref={dashboardSkill1Ref}>
                 <div class="dashboardSkills2 ">
                   <span>
-                    <h2>I Have learning to use Javascript language for latest one year and using it, I have used its library to create website more powerful and responsive...</h2>
+                    <div className="fs-4">
+                      I have learned programming websites since 2020, and continue to use some library or framework for building website, currently I am using ReactJs for build websites, and below are some languages, frameworks or libraries
+                      that I use:
+                    </div>
                     <CardsBahasa />
                     <a class="buttonkebawahskills" href="#skill2">
                       <i class="bx bx-chevrons-down fs-1" />
@@ -150,7 +153,7 @@ export default function Skills() {
             <div className="row align-items-center" ref={dashboardSkill2Ref}>
               <div class="dashboardSkill3 " id="skill2">
                 <span>
-                  <h2>I am used to using some of the tools below to help me develop websites:</h2>
+                  <div className="fs-4">I often use some of these tools for building an interactive websites:</div>
                   <CardsTools />
                   <Link class="tombolSkills " to="/project">
                     <span className="textskill">projects</span>

@@ -19,20 +19,20 @@ function CustomLink({ to, children, ...props }) {
 function Navbaar() {
   return (
     <Navbar className="f-top" expand="lg">
-      <div className="container-fluid">
-        <CustomLink to="/" className="text-light navbarlogo">
-          <img src={logo} alt="" className="logoazra" />
-        </CustomLink>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-togler" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto" id="navbarasli">
-            <CustomLink to="/about">About</CustomLink>
-            <CustomLink to="/skills">Skills</CustomLink>
-            <CustomLink to="/project">Projetcs</CustomLink>
-            <CustomLink to="/contact">Contacts</CustomLink>
-          </Nav>
-        </Navbar.Collapse>
-      </div>
+      {/* <div className="container-fluid"> */}
+      <CustomLink to="/" className="text-light navbarlogo">
+        <img src={logo} alt="" className="logoazra" />
+      </CustomLink>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-togler" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="ms-auto" id="navbarasli">
+          <CustomLink to="/about">About</CustomLink>
+          <CustomLink to="/skills">Skills</CustomLink>
+          <CustomLink to="/project">Projetcs</CustomLink>
+          <CustomLink to="/contact">Contacts</CustomLink>
+        </Nav>
+      </Navbar.Collapse>
+      {/* </div> */}
     </Navbar>
   );
 }

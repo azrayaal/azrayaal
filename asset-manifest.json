@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/azrayaal/static/css/main.315b30b4.css",
+    "main.js": "/azrayaal/static/js/main.f2a6f96d.js",
+    "static/media/mongodb.png": "/azrayaal/static/media/mongodb.4f7af09e6354d51beec8.png",
+    "static/media/react.png": "/azrayaal/static/media/react.68ba5563a5fef02206b2.png",
+    "static/media/mysql.png": "/azrayaal/static/media/mysql.5f8a211c010a92959207.png",
+    "static/media/node-js.png": "/azrayaal/static/media/node-js.0f5efdd2a6bfbe1fd818.png",
+    "static/media/postman.png": "/azrayaal/static/media/postman.a6ed2cc10ac006060f2e.png",
+    "static/media/jpg": "/azrayaal/static/media/b208f8e64522caf81bf17c5ecb6ec526.f809a9dec9d13fc13d34.jpg",
+    "static/media/css3.png": "/azrayaal/static/media/css3.e9d28f9786a12afee875.png",
+    "static/media/html.png": "/azrayaal/static/media/html.7b05005495cdff840fea.png",
+    "static/media/visual-studio-code.png": "/azrayaal/static/media/visual-studio-code.da8ad82ea7a642a83ac2.png",
+    "static/media/bootstrap.png": "/azrayaal/static/media/bootstrap.023751a9ed8238182851.png",
+    "static/media/express.png": "/azrayaal/static/media/express.70ef50a246c3bfa93f0b.png",
+    "static/media/github (1).png": "/azrayaal/static/media/github (1).f188e75061ea931a2cfb.png",
+    "static/media/tailwind-css.png": "/azrayaal/static/media/tailwind-css.2932a9f186e9ebcd54f1.png",
+    "static/media/azrayaal.png": "/azrayaal/static/media/azrayaal.572b784a70af0ab0e30b.png",
+    "index.html": "/azrayaal/index.html",
+    "main.315b30b4.css.map": "/azrayaal/static/css/main.315b30b4.css.map",
+    "main.f2a6f96d.js.map": "/azrayaal/static/js/main.f2a6f96d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.315b30b4.css",
+    "static/js/main.f2a6f96d.js"
+  ]
+}

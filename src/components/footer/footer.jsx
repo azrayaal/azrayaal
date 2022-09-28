@@ -16,7 +16,12 @@ export default function Futer() {
             <i className="bx bxl-facebook-circle fs-3" style={{ color: '#fffbfb' }}></i>
           </a>
         </span>
-        <div className="copyright">© 2022 made by azrayaal</div>
+        <div className="copyright">
+          © 2022 made by
+          <span>
+            <a href="https://azrayaaal.herokuapp.com/">azrayaal</a>
+          </span>
+        </div>
       </div>
     </div>
   );

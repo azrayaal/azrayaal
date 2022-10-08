@@ -18,8 +18,9 @@
 
 .card .profile-name {
   position: absolute;
-  left: 30px;
-  bottom: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+  bottom: 50px;
   font-size: 30px;
   color: black;
   text-shadow: 20px 20px;
@@ -30,8 +31,8 @@
 
 .card .profile-icons {
   position: absolute;
-  bottom: 30px;
-  right: 30px;
+  bottom: 5px;
+  right: 5px;
   color: #fff;
   transition: all linear 0.25s;
   filter: grayscale(100%);
@@ -56,6 +57,9 @@
 
 .card:hover .profile-name {
   bottom: 80px;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 25px;
 }
 
 .card:hover .profile-username {

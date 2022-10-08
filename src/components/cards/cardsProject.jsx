@@ -14,7 +14,7 @@ export default function CardsProject() {
           <a href="https://topup-games.herokuapp.com/" target="_blank">
             <div class="card" style={{}}>
               <img src={topup} class="card-img-top" alt="..." />
-              <div class="profile-name">Top-up games</div>
+              <div class="profile-name ">Top-up games</div>
               <div class="profile-username"></div>
               <div class="profile-icons borderlogo px-1 ">
                 <a href="#">

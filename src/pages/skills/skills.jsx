@@ -138,8 +138,14 @@ export default function Skills() {
                 <div class="dashboardSkills2 ">
                   <span>
                     <div className="fs-4">
-                      I have learned programming websites since 2020, and continue to use some library or framework for building website, currently I am using ReactJs for build websites, and below are some languages, frameworks or libraries
-                      that I use:
+                      I have learned programming websites since 2020, and continue to use some library or framework for building website, currently I am using
+                      <a href="https://reactjs.org/" target="_blank" style={{ textDecoration: 'none', color: 'white' }}>
+                        <span className="logoditext">
+                          {' '}
+                          React <i class="bx bxl-react" style={{ color: '#83deef', verticalAlign: 'middle' }} />{' '}
+                        </span>
+                      </a>
+                      for build websites, and below are some languages, frameworks or libraries that I use:
                     </div>
                     <CardsBahasa />
                     <a class="buttonkebawahskills" href="#skill2">

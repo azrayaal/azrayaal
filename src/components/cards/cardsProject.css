@@ -34,6 +34,7 @@
   right: 30px;
   color: #fff;
   transition: all linear 0.25s;
+  filter: grayscale(100%);
 }
 
 .card .profile-username {
@@ -45,7 +46,7 @@
   transition: all linear 0.25s;
 }
 
-.card .profile-icons .fa {
+.card .profile-icons {
   margin: 5px;
 }
 
@@ -63,7 +64,20 @@
 
 .card:hover .profile-icons {
   right: 40px;
+  filter: grayscale(0%);
 }
 
 .tombolProject {
+}
+
+.borderlogo {
+  padding-top: 8px !important;
+  padding-right: 10px !important;
+  padding-left: 8px !important;
+  background-color: #f2f2f2 !important;
+  border-radius: 100px;
+}
+
+.logoBahasa {
+  vertical-align: middle;
 }

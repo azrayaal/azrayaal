@@ -137,7 +137,7 @@ export default function Skills() {
               <div id="skill" className="row align-items-center" ref={dashboardSkill1Ref}>
                 <div class="dashboardSkills2 ">
                   <span>
-                    <div className="fs-4">
+                    <div id="aboutskill1" className="fs-4">
                       I have learned programming websites since 2020, and continue to use some library or framework for building website, currently I am using
                       <a href="https://reactjs.org/" target="_blank" style={{ textDecoration: 'none', color: 'white' }}>
                         <span className="logoditext">

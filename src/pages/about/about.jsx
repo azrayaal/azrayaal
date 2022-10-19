@@ -118,18 +118,16 @@ export default function About() {
               <div class="dashboardAbout ">
                 <span>
                   <div id="aboutnih" className="fs-4">
-                    I am enjoy building web apps using
+                    I am enjoy building web apps using{' '}
                     <a href="https://www.javascript.com/" target="_blank" style={{ textDecoration: 'none', color: 'white' }}>
                       <span className="logoditext">
-                        {' '}
                         React <i class="bx bxs-file-js" style={{ color: '#fcdc00' }} />
                       </span>
                     </a>
                     and
                     <a href="https://reactjs.org/" target="_blank" style={{ textDecoration: 'none', color: 'white' }}>
                       <span className="logoditext">
-                        {' '}
-                        React <i class="bx bxl-react" style={{ color: '#83deef', verticalAlign: 'middle' }} />{' '}
+                        React <i class="bx bxl-react" style={{ color: '#83deef', verticalAlign: 'middle' }} />
                       </span>
                     </a>
                     . I also have a good taste in UI/UX Design

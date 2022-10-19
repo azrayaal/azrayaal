@@ -6,13 +6,13 @@ export default function Futer() {
     <div className=" text-white footer fixed-bottom">
       <div className="container-fluid">
         <span className="logo">
-          <a href="instagram.com" rel="nofollow" target="_blank">
+          <a href="https://www.instagram.com/azrayazid.rar/" rel="nofollow" target="_blank">
             <i className="bx bxl-instagram fs-3 " style={{ color: '#fffbfb' }}></i>
           </a>
-          <a href="github.com" rel="nofollow" target="_blank">
+          <a href="https://github.com/azrayaal" rel="nofollow" target="_blank">
             <i className="bx bxl-github px-2 fs-3" style={{ color: '#fffbfb' }}></i>
           </a>
-          <a href="facebook.com" rel="nofollow" target="_blank">
+          <a href="https://www.facebook.com/azra.yazid" rel="nofollow" target="_blank">
             <i className="bx bxl-facebook-circle fs-3" style={{ color: '#fffbfb' }}></i>
           </a>
         </span>

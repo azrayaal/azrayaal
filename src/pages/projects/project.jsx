@@ -93,7 +93,7 @@ export default function Project() {
     <>
       <div className="App">
         <section class="about-us pt-5" id="about-us">
-          <div class="container">
+          <div class="container-fluid">
             {/* //////////////// */}
             <div class="row align-items-center">
               <div class="dashboardProjects">
@@ -112,7 +112,7 @@ export default function Project() {
               </div>
             </div>
             {/* CARDS PROJECT */}
-            <div id="project" className="row align-items-center" ref={projectRef}>
+            <div id="project" className="row align-items-center pb-5 mb-3" ref={projectRef}>
               <div className="dashboardProject2">
                 <CardsProject />
               </div>

@@ -8,9 +8,10 @@ import Contact from './pages/contact/contact';
 import Project from './pages/projects/project';
 import ScrollToTop from './components/scrollToTop/scrollToTop';
 import Navbaar from './components/navbar/navbar';
+import { NewtonsCradle } from '@uiball/loaders';
 
 import React, { useEffect, useState } from 'react';
-import HashLoader from 'react-spinners/HashLoader';
+// import HashLoader from 'react-spinners/HashLoader';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -19,14 +20,15 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 2200);
   }, []);
 
   return (
     <Router>
       {loading ? (
         <div className="loader">
-          <HashLoader color="#36d7b7" size={80} />
+          {/* <HashLoader color="#36d7b7" size={80} /> */}
+          <NewtonsCradle size={60} color="#36d7b7" />
         </div>
       ) : (
         <>

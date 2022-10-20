@@ -1,23 +1,12 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 import './dashboard.css';
 import { Link } from 'react-router-dom';
 import { Typewriter } from 'react-simple-typewriter';
 import { gsap, Power3 } from 'gsap';
-// import ClipLoader from 'react-spinners/ClipLoader';
 
 export default function Dasboard() {
-  const [loading, setLoading] = useState(false);
-  let [color, setColor] = useState('#ffffff');
-
   const hiTextRef = useRef(null);
   const arrowRef = useRef(null);
-
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 8000);
-  });
 
   useEffect(() => {
     const el = arrowRef.current;
@@ -72,7 +61,6 @@ export default function Dasboard() {
                 <br />
                 <Link to="/about">
                   <i className="fs-1 bx bx-right-arrow-circle tombolHome" ref={arrowRef}></i>
-                  {/* <i class="bx bxs-right-arrow-circle fs-1"></i> */}
                 </Link>
               </span>
             </div>

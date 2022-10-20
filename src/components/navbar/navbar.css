@@ -47,3 +47,7 @@
   /* background-color: red !important; */
   color: #61dafb;
 }
+
+.navbar-toggler-icon {
+  background-image: url('./ghost-regular-24.png') !important;
+}

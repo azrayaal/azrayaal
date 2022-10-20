@@ -6,14 +6,33 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import './skills.css';
 import CardsTools from '../../components/cardsTools/cardsTools';
 import CardsBahasa from '../../components/cardsBahasa/cardsBahasa';
+import AOS from 'aos';
 
 export default function Skills() {
+  const skill = () => {
+    const element = document.getElementById(`skill`);
+    element.scrollIntoView();
+  };
+  const skill2 = () => {
+    const element = document.getElementById(`skill2`);
+    element.scrollIntoView();
+  };
+
   const dashboardSkill1Ref = useRef(null);
   const dashboardSkill2Ref = useRef(null);
   const textSkillsRef = useRef(null);
   const arrowRef = useRef(null);
   const detailsRef = useRef(null);
   gsap.registerPlugin(ScrollTrigger);
+
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 800,
+      easing: 'ease-in-quad',
+      delay: 100,
+    });
+  }, []);
 
   useEffect(() => {
     const el = dashboardSkill1Ref.current;
@@ -126,7 +145,7 @@ export default function Skills() {
                     <span style={{ color: '#13fbe2' }}> & </span>
                     stacks
                   </p>
-                  <a class="buttonmainskill" href="#skill">
+                  <a class="buttonmainskill" onClick={skill}>
                     <i class="bx bx-chevrons-down fs-1" ref={arrowRef} />
                   </a>
                 </span>
@@ -134,7 +153,7 @@ export default function Skills() {
             </div>
             {/* //////////////// */}
             <div>
-              <div id="skill" className="row align-items-center" ref={dashboardSkill1Ref}>
+              <div id="skill" className="row align-items-center fadeInSkills" ref={dashboardSkill1Ref}>
                 <div class="dashboardSkills2 ">
                   <span>
                     <div id="aboutskill1" className="fs-4">
@@ -147,24 +166,30 @@ export default function Skills() {
                       </a>
                       for build websites, and below are some languages, frameworks or libraries that I use:
                     </div>
-                    <CardsBahasa />
-                    <a class="buttonkebawahskills" href="#skill2">
-                      <i class="bx bx-chevrons-down fs-1" />
-                    </a>
+                    <div className="logobahasa">
+                      <CardsBahasa />
+                    </div>
+                    <div data-aos="flip-down">
+                      <a class="buttonkebawahskills" onClick={skill2}>
+                        <i class="bx bx-chevrons-down fs-1" />
+                      </a>
+                    </div>
                   </span>
                 </div>
               </div>
             </div>
             {/* //////////////// */}
-            <div className="row align-items-center" ref={dashboardSkill2Ref}>
-              <div class="dashboardSkill3 " id="skill2">
+            <div className="row align-items-center fadeInSkills" ref={dashboardSkill2Ref}>
+              <div class="dashboardSkill3  " id="skill2">
                 <span>
-                  <div className="fs-4">I use some of these tools for building an interactive websites:</div>
+                  <div className="fs-4">I use these tools for building an interactive websites:</div>
                   <CardsTools />
-                  <Link class="tombolSkills " to="/project">
-                    <span className="textskill">projects</span>
-                    <i class="bx bx-right-arrow-alt "></i>
-                  </Link>
+                  <div data-aos="fade-right">
+                    <Link class="tombolSkills " to="/project">
+                      <span className="textskill">projects</span>
+                      <i class="bx bx-right-arrow-alt "></i>
+                    </Link>
+                  </div>
                 </span>
               </div>
             </div>

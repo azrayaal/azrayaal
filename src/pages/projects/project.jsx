@@ -6,6 +6,11 @@ import { gsap, Power3 } from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 
 export default function Project() {
+  const prjekKartu = () => {
+    const element = document.getElementById(`project`);
+    element.scrollIntoView();
+  };
+
   const textProjectRef = useRef(null);
   const arrowRef = useRef(null);
   const detailTextRef = useRef(null);
@@ -105,7 +110,7 @@ export default function Project() {
                     websites
                     <span style={{ color: '#13fbe2' }}> that </span>I build
                   </p>
-                  <a class="buttonkebawah" href="#project">
+                  <a class="buttonkebawah" onClick={prjekKartu}>
                     <i class="bx bx-chevrons-down fs-1" ref={arrowRef} />
                   </a>
                 </span>

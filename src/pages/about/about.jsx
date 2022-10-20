@@ -4,18 +4,27 @@ import { gsap, Power3 } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Link } from 'react-router-dom';
 import './about.css';
+import AOS from 'aos';
 
 export default function About() {
   const aboutnih = () => {
     const element = document.getElementById(`aboutnih`);
     element.scrollIntoView();
   };
-
   const fadeinAboutRef = useRef(null);
   const dashboardRef = useRef(null);
   const dashboardTextRef = useRef(null);
   const dashboardButton = useRef(null);
   gsap.registerPlugin(ScrollTrigger);
+
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 800,
+      easing: 'ease-in-quad',
+      delay: 100,
+    });
+  }, []);
 
   useEffect(() => {
     const el = fadeinAboutRef.current;
@@ -140,19 +149,16 @@ export default function About() {
                     </a>
                     . I also have a good taste in UI/UX Design
                   </div>
-                  {/* <div class="text-center">
-                    <button type="button" class="fill mt-3 mb-4">
-                      download CV
-                    </button>
-                  </div> */}
                   <button className="btnCV mt-3 mb-4 ">download CV</button>
                   <br />
-                  <Link class="tombolSkills " to="/skills">
-                    <span className="textskill fs-5">
-                      skills
-                      <i class="bx bx-right-arrow-alt "></i>
-                    </span>
-                  </Link>
+                  <div data-aos="fade-right">
+                    <Link class="tombolSkills " to="/skills">
+                      <span className="textskill fs-5">
+                        skills
+                        <i class="bx bx-right-arrow-alt "></i>
+                      </span>
+                    </Link>
+                  </div>
                 </span>
               </div>
             </div>

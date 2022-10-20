@@ -13,6 +13,9 @@ import { NewtonsCradle } from '@uiball/loaders';
 import React, { useEffect, useState } from 'react';
 // import HashLoader from 'react-spinners/HashLoader';
 
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+
 function App() {
   const [loading, setLoading] = useState(false);
 

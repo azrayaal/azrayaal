@@ -65,7 +65,5 @@
 
 /* fadein */
 .fadeInSkills {
-  opacity: 0;
-  transition: all 4s;
-  background-color: red;
+  transition: all 1.5s;
 }

@@ -8,12 +8,19 @@ import Topup from './TopUpGames.png';
 import { Link } from 'react-router-dom';
 
 import Card from 'react-bootstrap/Card';
+import AOS from 'aos';
+import { useEffect } from 'react';
 
 export default function CardsProject() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
   return (
     <div className="">
       <div class="row ">
-        <div class="col-md-4 col-12 ">
+        <div class="col-md-4 col-12 " data-aos="fade-up">
           <Card className="kartuProjek" style={{ width: '18rem' }}>
             <img className="p-2" variant="top" src={typingtest} style={{ borderRadius: '15px' }} />
             <div className="judulproject">
@@ -42,7 +49,7 @@ export default function CardsProject() {
             </div>
           </Card>
         </div>
-        <div class="col-md-4 col-12 ">
+        <div class="col-md-4 col-12 " data-aos="fade-up">
           <Card className="kartuProjek" style={{ width: '18rem' }}>
             <img className="p-2" variant="top" src={filmReview} style={{ borderRadius: '15px' }} />
             <div className="judulproject">
@@ -71,7 +78,7 @@ export default function CardsProject() {
             </div>
           </Card>
         </div>
-        <div class="col-md-4 col-12 ">
+        <div class="col-md-4 col-12 " data-aos="fade-up">
           <Card className="kartuProjek" style={{ width: '18rem' }}>
             <img className="p-2" variant="top" src={gatotngaca} style={{ borderRadius: '15px' }} />
             <div className="judulproject">
@@ -102,7 +109,7 @@ export default function CardsProject() {
         </div>
       </div>
       <div class="row pb-4">
-        <div class="col-md-4 col-12 ">
+        <div class="col-md-4 col-12 " data-aos="fade-up">
           <Card className="kartuProjek" style={{ width: '18rem' }}>
             <img className="p-2" variant="top" src={quotes} style={{ borderRadius: '15px' }} />
             <div className="judulproject">
@@ -131,7 +138,7 @@ export default function CardsProject() {
             </div>
           </Card>
         </div>
-        <div class="col-md-4 col-12 ">
+        <div class="col-md-4 col-12 " data-aos="fade-up">
           <Card className="kartuProjek" style={{ width: '18rem' }}>
             <img className="p-2" variant="top" src={Topup} style={{ borderRadius: '15px' }} />
             <div className="judulproject">
@@ -161,10 +168,12 @@ export default function CardsProject() {
           </Card>
         </div>
       </div>
-      <Link className="tombolcontact" to="/contact">
-        <span className="textskills ">contact</span>
-        <i class="bx bx-right-arrow-alt "></i>
-      </Link>
+      <div data-aos="fade-right">
+        <Link className="tombolcontact" to="/contact">
+          <span className="textskills ">contact</span>
+          <i class="bx bx-right-arrow-alt "></i>
+        </Link>
+      </div>
     </div>
   );
 }

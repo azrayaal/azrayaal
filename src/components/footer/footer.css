@@ -20,6 +20,9 @@
 }
 
 .footer {
-  background-color: #111827;
+  /* background-color: #111827; */
   padding-top: 10px;
+  /* filter: alpha(opacity=50); For IE8 and earlier */
+  /* background: rgba(17, 24, 39, 0.8); */
+  background-image: linear-gradient(to top, rgba(17, 24, 39, 1), rgba(17, 24, 39, 1), rgba(17, 24, 39, 0.5));
 }

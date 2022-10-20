@@ -6,6 +6,11 @@ import { Link } from 'react-router-dom';
 import './about.css';
 
 export default function About() {
+  const aboutnih = () => {
+    const element = document.getElementById(`aboutnih`);
+    element.scrollIntoView();
+  };
+
   const fadeinAboutRef = useRef(null);
   const dashboardRef = useRef(null);
   const dashboardTextRef = useRef(null);
@@ -106,9 +111,12 @@ export default function About() {
                     <span style={{ color: '#13fbe2' }}> & </span>
                     resume
                   </p>
-                  <a href="#aboutnih">
+                  <a onClick={aboutnih}>
                     <i class="bx bx-chevrons-down  fs-1" ref={dashboardButton} />
                   </a>
+                  {/* <a href="#aboutnih">
+                    <i class="bx bx-chevrons-down  fs-1" ref={dashboardButton} />
+                  </a> */}
                 </span>
               </div>
             </div>
@@ -127,7 +135,7 @@ export default function About() {
                     and
                     <a href="https://reactjs.org/" target="_blank" style={{ textDecoration: 'none', color: 'white' }}>
                       <span className="logoditext">
-                        React <i class="bx bxl-react" style={{ color: '#83deef', verticalAlign: 'middle' }} />
+                        ReactJS <i class="bx bxl-react" style={{ color: '#83deef', verticalAlign: 'middle' }} />
                       </span>
                     </a>
                     . I also have a good taste in UI/UX Design

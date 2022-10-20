@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import Futer from '../../components/footer/footer';
 import { Link } from 'react-router-dom';
 import { gsap, Power3 } from 'gsap';
@@ -140,9 +140,9 @@ export default function Skills() {
                     <div id="aboutskill1" className="fs-4">
                       I have learned programming websites since 2020, and continue to use some library or framework for building website, currently I am using
                       <a href="https://reactjs.org/" target="_blank" style={{ textDecoration: 'none', color: 'white' }}>
+                        {' '}
                         <span className="logoditext">
-                          {' '}
-                          React <i class="bx bxl-react" style={{ color: '#83deef', verticalAlign: 'middle' }} />{' '}
+                          ReactJS <i class="bx bxl-react" style={{ color: '#83deef', verticalAlign: 'middle' }} />
                         </span>
                       </a>
                       for build websites, and below are some languages, frameworks or libraries that I use:
@@ -159,7 +159,7 @@ export default function Skills() {
             <div className="row align-items-center" ref={dashboardSkill2Ref}>
               <div class="dashboardSkill3 " id="skill2">
                 <span>
-                  <div className="fs-4">I often use some of these tools for building an interactive websites:</div>
+                  <div className="fs-4">I use some of these tools for building an interactive websites:</div>
                   <CardsTools />
                   <Link class="tombolSkills " to="/project">
                     <span className="textskill">projects</span>

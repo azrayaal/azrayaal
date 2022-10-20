@@ -14,6 +14,7 @@ import React, { useEffect, useState } from 'react';
 // import HashLoader from 'react-spinners/HashLoader';
 
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import Futer from './components/footer/footer';
 // ..
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
           <NewtonsCradle size={60} color="#36d7b7" />
         </div>
       ) : (
-        <>
+        <div className="App">
           <ScrollToTop />
           <Navbaar />
           <Routes>
@@ -44,7 +45,8 @@ function App() {
             <Route path="/project" element={<Project />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
-        </>
+          <Futer />
+        </div>
       )}
     </Router>
   );

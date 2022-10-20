@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from 'react';
-import Futer from '../../components/footer/footer';
 import './project.css';
 import CardsProject from '../../components/cards/cardsProject';
 import { gsap, Power3 } from 'gsap';
@@ -125,7 +124,6 @@ export default function Project() {
             {/* //////////////// */}
           </div>
         </section>
-        <Futer />
       </div>
     </>
   );

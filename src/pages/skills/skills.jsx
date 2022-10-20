@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-import Futer from '../../components/footer/footer';
 import { Link } from 'react-router-dom';
 import { gsap, Power3 } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -196,7 +195,6 @@ export default function Skills() {
             {/* //////////////// */}
           </div>
         </section>
-        <Futer />
       </div>
     </>
   );

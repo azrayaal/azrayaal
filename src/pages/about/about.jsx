@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-import Futer from '../../components/footer/footer';
 import { gsap, Power3 } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Link } from 'react-router-dom';
@@ -165,7 +164,6 @@ export default function About() {
             {/* //////////////// */}
           </div>
         </section>
-        <Futer />
       </div>
     </>
   );

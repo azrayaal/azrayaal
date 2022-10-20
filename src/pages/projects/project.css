@@ -16,16 +16,17 @@
 
 #project {
   /* opacity: 0; */
-  padding-bottom: 20vh !important;
+  /* padding-bottom: 20vh !important; */
 }
 
 @media screen and (max-width: 480px) {
   .dashboardProjects {
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
   }
   .dashboardProject2 {
     background-color: #111827;
-    height: 150vh;
-    padding-top: 100px;
+    height: 100%;
+    /* padding-top: 250px; */
+    padding-bottom: 110px;
   }
 }

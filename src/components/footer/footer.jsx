@@ -4,7 +4,7 @@ import './footer.css';
 export default function Futer() {
   return (
     <div className=" text-white footer fixed-bottom">
-      <div className="container-fluid">
+      <div className="container-fluid futerlogo">
         <span className="logo">
           <a href="https://www.instagram.com/azrayazid.rar/" rel="nofollow" target="_blank">
             <i className="bx bxl-instagram fs-3 " style={{ color: '#fffbfb' }}></i>

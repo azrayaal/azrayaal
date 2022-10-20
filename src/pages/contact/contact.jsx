@@ -1,11 +1,9 @@
 import { gsap, Power3 } from 'gsap';
 import React, { useEffect, useRef } from 'react';
-import Futer from '../../components/footer/footer';
 import './contact.css';
 
 export default function Contact() {
   const textLeftRef = useRef(null);
-  const textRightRef = useRef(null);
   const emailRef = useRef(null);
 
   useEffect(() => {
@@ -25,24 +23,6 @@ export default function Contact() {
       }
     );
   }, []);
-
-  // useEffect(() => {
-  //   const el = textRightRef.current;
-  //   gsap.fromTo(
-  //     el,
-  //     {
-  //       opacity: 0,
-  //       x: 200,
-  //       ease: Power3.easeInOut,
-  //       duration: 0.8,
-  //     },
-  //     {
-  //       opacity: 1,
-  //       x: 0,
-  //       duration: 0.8,
-  //     }
-  //   );
-  // }, []);
 
   useEffect(() => {
     const el = emailRef.current;
@@ -72,13 +52,12 @@ export default function Contact() {
               </span>
               <hr />
             </div>
-            <a href="mailto:azrayazidalkautsar@gmail.com" className="fs-4 emailaz" ref={emailRef}>
+            <a href="mailto:azra@azrayaal.space" className="fs-4 emailaz" ref={emailRef}>
               <i class="bx bxs-envelope"></i>
-              <span className="emaiil">azrayazidalkautsar@gmail.com</span>
+              <span className="emaiil">azra@azrayaal.space</span>
             </a>
           </span>
         </div>
-        <Futer />
       </div>
     </>
   );

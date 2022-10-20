@@ -161,10 +161,10 @@ export default function CardsProject() {
           </Card>
         </div>
       </div>
-      <Link className="tombolcontact" to="/contact">
+      <a className="tombolcontact" href="/contact">
         <span className="textskills ">contact</span>
         <i class="bx bx-right-arrow-alt "></i>
-      </Link>
+      </a>
     </div>
   );
 }

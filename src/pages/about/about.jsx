@@ -135,13 +135,13 @@ export default function About() {
                 <span>
                   <div id="aboutnih" className="fs-4">
                     I am enjoy building web apps using{' '}
-                    <a href="https://www.javascript.com/" target="_blank" style={{ textDecoration: 'none', color: 'white' }}>
+                    <a href="https://www.javascript.com/" target="_blank" style={{ textDecoration: 'none', color: '#e0e0e0' }}>
                       <span className="logoditext">
-                        React <i class="bx bxs-file-js" style={{ color: '#fcdc00' }} />
+                        Javascript <i class="bx bxs-file-js" style={{ color: '#fcdc00' }} />
                       </span>
                     </a>
                     and
-                    <a href="https://reactjs.org/" target="_blank" style={{ textDecoration: 'none', color: 'white' }}>
+                    <a href="https://reactjs.org/" target="_blank" style={{ textDecoration: 'none', color: '#e0e0e0' }}>
                       <span className="logoditext">
                         ReactJS <i class="bx bxl-react" style={{ color: '#83deef', verticalAlign: 'middle' }} />
                       </span>

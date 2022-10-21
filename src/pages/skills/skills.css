@@ -11,7 +11,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  color: white;
+  color: #e0e0e0;
 }
 .bx-chevrons-down {
   padding-top: 110px;
@@ -22,25 +22,25 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  color: white;
+  color: #e0e0e0;
 }
 
 .dashboardSkill h2 {
   padding-left: 20px;
   padding-right: 20px;
-  color: white;
+  color: #e0e0e0;
   text-align: justify;
 }
 .dashboardSkills2 h2 {
   padding-left: 20px;
   padding-right: 20px;
-  color: white;
+  color: #e0e0e0;
   text-align: justify;
 }
 .dashboardSkill3 h2 {
   padding-left: 20px;
   padding-right: 20px;
-  color: white;
+  color: #e0e0e0;
   text-align: justify;
 }
 

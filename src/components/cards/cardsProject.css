@@ -87,8 +87,9 @@
   /* margin-bottom: 270px; */
   /* margin-top: 300px !important; */
   text-decoration: none;
-  color: #fff;
+  color: #e0e0e0;
   font-size: 1.2rem;
+  /* padding-bottom: 110px; */
   /* margin-top: 100px !important; */
 }
 
@@ -132,6 +133,6 @@ a:link {
 
 .judulproject a:hover {
   background-color: #0fc8b4;
-  color: white;
+  color: #e0e0e0;
   transition: 0.3s;
 }

@@ -9,9 +9,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
+  /* padding-bottom: 110px; */
   background-color: #111827;
-  color: white;
+  color: #e0e0e0;
 }
 
 #project {
@@ -27,6 +28,6 @@
     background-color: #111827;
     height: 100%;
     /* padding-top: 250px; */
-    padding-bottom: 110px;
+    /* padding-bottom: 110px; */
   }
 }

@@ -11,13 +11,13 @@
 }
 
 .emailaz:hover {
-  color: white;
+  color: #e0e0e0;
 }
 
 .bxs-envelope {
   padding-right: 5px;
   vertical-align: middle;
-  color: white;
+  color: #e0e0e0;
   /* color: #13fbe2; */
   animation: bouncetop 1s;
   animation-direction: alternate;

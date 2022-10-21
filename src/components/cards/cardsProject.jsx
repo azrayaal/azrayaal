@@ -19,8 +19,8 @@ export default function CardsProject() {
   }, []);
   return (
     <div className="">
-      <div class="row ">
-        <div class="col-md-4 col-12 " data-aos="fade-up">
+      <div class="row " data-aos="fade-up">
+        <div class="col-md-4 col-12 ">
           <Card className="kartuProjek" style={{ width: '18rem' }}>
             <img className="p-2" variant="top" src={typingtest} style={{ borderRadius: '15px' }} />
             <div className="judulproject">
@@ -49,7 +49,7 @@ export default function CardsProject() {
             </div>
           </Card>
         </div>
-        <div class="col-md-4 col-12 " data-aos="fade-up">
+        <div class="col-md-4 col-12 ">
           <Card className="kartuProjek" style={{ width: '18rem' }}>
             <img className="p-2" variant="top" src={filmReview} style={{ borderRadius: '15px' }} />
             <div className="judulproject">
@@ -78,7 +78,7 @@ export default function CardsProject() {
             </div>
           </Card>
         </div>
-        <div class="col-md-4 col-12 " data-aos="fade-up">
+        <div class="col-md-4 col-12 ">
           <Card className="kartuProjek" style={{ width: '18rem' }}>
             <img className="p-2" variant="top" src={gatotngaca} style={{ borderRadius: '15px' }} />
             <div className="judulproject">
@@ -108,8 +108,8 @@ export default function CardsProject() {
           </Card>
         </div>
       </div>
-      <div class="row pb-4">
-        <div class="col-md-4 col-12 " data-aos="fade-up">
+      <div class="row pb-4" data-aos="fade-up">
+        <div class="col-md-4 col-12 ">
           <Card className="kartuProjek" style={{ width: '18rem' }}>
             <img className="p-2" variant="top" src={quotes} style={{ borderRadius: '15px' }} />
             <div className="judulproject">
@@ -138,7 +138,7 @@ export default function CardsProject() {
             </div>
           </Card>
         </div>
-        <div class="col-md-4 col-12 " data-aos="fade-up">
+        <div class="col-md-4 col-12 ">
           <Card className="kartuProjek" style={{ width: '18rem' }}>
             <img className="p-2" variant="top" src={Topup} style={{ borderRadius: '15px' }} />
             <div className="judulproject">
@@ -167,8 +167,8 @@ export default function CardsProject() {
             </div>
           </Card>
         </div>
-      </div>
-      <div data-aos="fade-right">
+        {/* </div> */}
+        {/* <div data-aos="fade-right"> */}
         <Link className="tombolcontact" to="/contact">
           <span className="textskills ">contact</span>
           <i class="bx bx-right-arrow-alt "></i>

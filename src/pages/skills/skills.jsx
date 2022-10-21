@@ -157,7 +157,7 @@ export default function Skills() {
                   <span>
                     <div id="aboutskill1" className="fs-4">
                       I have learned programming websites since 2020, and continue to use some library or framework for building website, currently I am using
-                      <a href="https://reactjs.org/" target="_blank" style={{ textDecoration: 'none', color: 'white' }}>
+                      <a href="https://reactjs.org/" target="_blank" style={{ textDecoration: 'none', color: '#e0e0e0' }}>
                         {' '}
                         <span className="logoditext">
                           ReactJS <i class="bx bxl-react" style={{ color: '#83deef', verticalAlign: 'middle' }} />
@@ -168,11 +168,11 @@ export default function Skills() {
                     <div className="logobahasa">
                       <CardsBahasa />
                     </div>
-                    <div data-aos="flip-down">
-                      <a class="buttonkebawahskills" onClick={skill2}>
-                        <i class="bx bx-chevrons-down fs-1" />
-                      </a>
-                    </div>
+                    {/* <div data-aos="flip-down"> */}
+                    <a class="buttonkebawahskills" onClick={skill2}>
+                      <i class="bx bx-chevrons-down fs-1" />
+                    </a>
+                    {/* </div> */}
                   </span>
                 </div>
               </div>

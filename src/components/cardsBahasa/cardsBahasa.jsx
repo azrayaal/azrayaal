@@ -74,7 +74,7 @@ export default function CardsBahasa() {
     <div className="container pt-4">
       <div class="logoBahasa" data-aos="fade-up">
         {kartubahasa.map((item) => (
-          <a href={item.href} key={item.src} href={item.href} src={item.src}>
+          <a href={item.href} key={item.src} src={item.src}>
             <img src={item.src} className="card-img-top mx-2 my-2" alt="..." />
           </a>
         ))}

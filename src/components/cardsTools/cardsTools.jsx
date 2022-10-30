@@ -6,6 +6,25 @@ import vscode from './visual-studio-code.png';
 import github from './github (1).png';
 import AOS from 'aos';
 
+const kartutools = [
+  {
+    href: 'https://leisureblogwp.azrayaal.space/',
+    src: git,
+  },
+  {
+    href: 'https://leisureblogwp.azrayaal.space/',
+    src: postman,
+  },
+  {
+    href: 'https://leisureblogwp.azrayaal.space/',
+    src: vscode,
+  },
+  {
+    href: 'https://leisureblogwp.azrayaal.space/',
+    src: github,
+  },
+];
+
 export default function CardsTools() {
   useEffect(() => {
     AOS.init({
@@ -19,18 +38,11 @@ export default function CardsTools() {
     <>
       <div className="container pb-5 pt-4">
         <div class="logoTools" data-aos="fade-up">
-          <a href="">
-            <img src={vscode} class="card-img-top mx-2 my-2" alt="..." />
-          </a>
-          <a href="">
-            <img src={git} class="card-img-top mx-2 my-2" alt="..." />
-          </a>
-          <a href="">
-            <img src={github} class="card-img-top mx-2 my-2" alt="..." />
-          </a>
-          <a href="">
-            <img src={postman} class="card-img-top mx-2 my-2" alt="..." />
-          </a>
+          {kartutools.map((item) => (
+            <a key={item.src} href={item.href} src={item.src}>
+              <img src={item.src} class="card-img-top mx-2 my-2" alt="..." />
+            </a>
+          ))}
         </div>
       </div>
     </>

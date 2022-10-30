@@ -57,7 +57,7 @@ const projects = [
     href: 'http://serverstoregg.azrayaal.space/',
     src: adminggstore,
     year: '2022',
-    logo: [<box-icon name="nodejs" type="logo" color="#80cd2e"></box-icon>, <box-icon name="mongodb" type="logo" color="#149752"></box-icon>],
+    logo: [<box-icon name="nodejs" type="logo" color="#80cd2e"></box-icon>, <box-icon name="mongodb" type="logo" color="#149752"></box-icon>, 'ex'],
   },
   {
     name: 'Company Profile',

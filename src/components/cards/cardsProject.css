@@ -136,3 +136,10 @@ a:link {
   color: #e0e0e0;
   transition: 0.3s;
 }
+
+@media screen and (min-width: 1180px) {
+  .containerProjek {
+    padding-left: 150px !important;
+    padding-right: 150px !important;
+  }
+}

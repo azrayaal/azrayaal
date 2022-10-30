@@ -9,9 +9,57 @@ import express from './express.png';
 import react from './react.png';
 import node from './node-js.png';
 import mysql from './mysql.png';
+import wordpress from './wordpress_PNG74.png';
 import './cardsBahasa.css';
 import AOS from 'aos';
 import { useEffect } from 'react';
+
+const kartubahasa = [
+  {
+    href: 'https://leisureblogwp.azrayaal.space/',
+    src: html,
+  },
+  {
+    href: 'https://leisureblogwp.azrayaal.space/',
+    src: css,
+  },
+  {
+    href: 'https://leisureblogwp.azrayaal.space/',
+    src: js,
+  },
+  {
+    href: 'https://leisureblogwp.azrayaal.space/',
+    src: bootstrap,
+  },
+  {
+    href: 'https://leisureblogwp.azrayaal.space/',
+    src: tailwind,
+  },
+  {
+    href: 'https://leisureblogwp.azrayaal.space/',
+    src: mongo,
+  },
+  {
+    href: 'https://leisureblogwp.azrayaal.space/',
+    src: express,
+  },
+  {
+    href: 'https://leisureblogwp.azrayaal.space/',
+    src: react,
+  },
+  {
+    href: 'https://leisureblogwp.azrayaal.space/',
+    src: node,
+  },
+  {
+    href: 'https://leisureblogwp.azrayaal.space/',
+    src: mysql,
+  },
+  {
+    href: 'https://leisureblogwp.azrayaal.space/',
+    src: wordpress,
+  },
+];
 
 export default function CardsBahasa() {
   useEffect(() => {
@@ -25,36 +73,11 @@ export default function CardsBahasa() {
   return (
     <div className="container pt-4">
       <div class="logoBahasa" data-aos="fade-up">
-        <a href="">
-          <img src={html} className="card-img-top mx-2 my-2" alt="..." />
-        </a>
-        <a href="">
-          <img src={css} className="card-img-top mx-2 my-2" alt="..." />
-        </a>
-        <a href="">
-          <img src={js} className="card-img-top mx-2 my-2" alt="..." />
-        </a>
-        <a href="">
-          <img src={bootstrap} className="card-img-top mx-2 my-2" alt="..." />
-        </a>
-        <a href="">
-          <img src={tailwind} className="card-img-top mx-2 my-2" alt="..." />
-        </a>
-        <a href="">
-          <img src={mongo} className="card-img-top mx-2 my-2" alt="..." />
-        </a>
-        <a href="">
-          <img src={express} className="card-img-top mx-2 my-2" alt="..." />
-        </a>
-        <a href="">
-          <img src={react} className="card-img-top mx-2 my-2" alt="..." />
-        </a>
-        <a href="">
-          <img src={node} className="card-img-top mx-2 my-2" alt="..." />
-        </a>
-        <a href="">
-          <img src={mysql} className="card-img-top mx-2 my-2" alt="..." />
-        </a>
+        {kartubahasa.map((item) => (
+          <a href={item.href} key={item.src} href={item.href} src={item.src}>
+            <img src={item.src} className="card-img-top mx-2 my-2" alt="..." />
+          </a>
+        ))}
       </div>
     </div>
   );

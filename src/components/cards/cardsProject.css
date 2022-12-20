@@ -30,9 +30,6 @@
 }
 
 .card .profile-icons {
-  /* position: absolute;
-  bottom: 5px;
-  right: 5px; */
   color: #fff;
   transition: all linear 0.25s;
   filter: grayscale(100%);
@@ -56,7 +53,6 @@
 }
 
 .card:hover .profile-name {
-  /* bottom: 80px; */
   background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(5px);
   border-radius: 25px;
@@ -67,7 +63,6 @@
 }
 
 .card:hover .profile-icons {
-  /* right: 40px; */
   filter: grayscale(0%);
 }
 
@@ -84,13 +79,9 @@
 }
 
 .tombolcontact {
-  /* margin-bottom: 270px; */
-  /* margin-top: 300px !important; */
   text-decoration: none;
   color: #e0e0e0;
   font-size: 1.2rem;
-  /* padding-bottom: 110px; */
-  /* margin-top: 100px !important; */
 }
 
 .tombolcontact:hover {
@@ -99,6 +90,14 @@
 
 .kartuProjek {
   background-color: #282f3c !important;
+  transition: 0.5s ease-out;
+}
+
+.kartuProjek:hover {
+  transform: scale(0.98);
+  border-color: #45cefb;
+  border-radius: 20px;
+  box-shadow: 0 4px 18px 0 #45cefb;
 }
 
 .align-start {
@@ -109,7 +108,7 @@
   text-align: right;
 }
 
-.buttonView {
+/* .buttonView {
   border: 2px solid #13fbe2;
   background-color: #13fbe2;
   border: none;
@@ -120,14 +119,13 @@
   border-radius: 12px;
   transition: all linear 0.25s;
   filter: grayscale(100%);
-}
+} */
 
 a:link {
   text-decoration: none !important;
 }
 
 .card:hover .judulproject a {
-  /* right: 40px; */
   filter: grayscale(0%);
 }
 
@@ -141,5 +139,69 @@ a:link {
   .containerProjek {
     padding-left: 150px !important;
     padding-right: 150px !important;
+  }
+}
+
+/* button glitch */
+.buttonView {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #183153;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border: none;
+  margin-right: 10px;
+}
+
+.buttonView:after {
+  content: ' ';
+  width: 0%;
+  height: 100%;
+  background: #ffd401;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+}
+
+.buttonView:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+
+.buttonView span {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 8px 12px;
+  color: #ffd401;
+
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+}
+
+.buttonView:hover span {
+  color: #183153;
+  animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.95);
+  }
+
+  100% {
+    transform: scale(1);
   }
 }

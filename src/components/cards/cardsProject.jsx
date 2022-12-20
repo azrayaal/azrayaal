@@ -1,20 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './cardsProject.css';
-import typingtest from './testTyping.png';
 import filmReview from './filmReview.png';
 import gatotngaca from './gatotNgaca.png';
-import quotes from './MotivationQuote.png';
-import Topup from './TopUpGames.png';
-import adminggstore from './serverstoregg.png';
 import leisureblog from './leisureblog.png';
+import leisurevent from './leisureEvent.png';
 import leisurestore from './leisurestorewp.png';
+import quotes from './MotivationQuote.png';
+import adminggstore from './serverstoregg.png';
+import typingtest from './testTyping.png';
+import Topup from './TopUpGames.png';
 // import expressicon from './expressjs_logo_icon_169186 (1).png';
+
+import { Modal, Button } from 'react-bootstrap';
 
 import { Link } from 'react-router-dom';
 
-import Card from 'react-bootstrap/Card';
 import AOS from 'aos';
 import { useEffect } from 'react';
+import Card from 'react-bootstrap/Card';
+import ModalsItem from '../modals/modalsItem';
 
 const projects = [
   {
@@ -23,6 +27,13 @@ const projects = [
     src: typingtest,
     year: '2022',
     logo: [<box-icon type="logo" className="" color="#3db8b8" name="react" />, <box-icon name="bootstrap" type="logo" color="#52377C" />],
+  },
+  {
+    name: 'Web Event',
+    href: 'https://eventleisure.azrayaal.space/',
+    src: leisurevent,
+    year: '2022',
+    logo: 'ON PROGRESS',
   },
   {
     name: 'Film Review',
@@ -64,14 +75,14 @@ const projects = [
     href: 'https://leisureblogwp.azrayaal.space/',
     src: leisureblog,
     year: '2022',
-    logo: [<box-icon name="wordpress" type="logo" color="#ffffff"></box-icon>],
+    logo: [<box-icon name="wordpress" type="logo" color="#e8e8e8"></box-icon>],
   },
   {
     name: 'Leisure Store',
     href: 'https://leisurestorewp.azrayaal.space/',
     src: leisurestore,
     year: '2022',
-    logo: [<box-icon name="wordpress" type="logo" color="#ffffff"></box-icon>],
+    logo: [<box-icon name="wordpress" type="logo" color="#e8e8e8"></box-icon>],
   },
 ];
 
@@ -81,6 +92,11 @@ export default function CardsProject() {
       duration: 1000,
     });
   }, []);
+
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <div className="containerProjek">
       <div class="row g-3" data-aos="fade-up">
@@ -90,9 +106,10 @@ export default function CardsProject() {
               <img className="p-2" variant="top" src={item.src} style={{ borderRadius: '15px' }} />
               <div className="judulproject">
                 <h5 className="float-start d-flex p-2">{item.name}</h5>
-                <a href={item.href} target="_blank" class="float-end d-flex buttonView">
-                  view
-                </a>
+                {/* <a href={item.href} target="_blank" class="float-end d-flex buttonView">
+                  <span>view</span>
+                </a> */}
+                <ModalsItem handleClose={handleClose} handleShow={handleShow} show={show} />
               </div>
               <div className="p-2 ">
                 <Card.Text className="float-start d-flex ">{item.year}</Card.Text>
@@ -103,6 +120,7 @@ export default function CardsProject() {
             </Card>
           </div>
         ))}
+
         <Link className="tombolcontact pb-5" to="/contact">
           <span className="textskills ">contact</span>
           <i class="bx bx-right-arrow-alt "></i>

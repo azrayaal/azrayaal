@@ -141,11 +141,11 @@ export default function Skills() {
                   </p>
                   <p class="fs-5" ref={detailsRef}>
                     techs
-                    <span style={{ color: '#13fbe2' }}> & </span>
+                    <span style={{ color: '#33bff4' }}> & </span>
                     stacks
                   </p>
                   <a class="buttonmainskill" onClick={skill}>
-                    <i class="bx bx-chevrons-down fs-1" ref={arrowRef} />
+                    <i class="bx bxs-down-arrow-alt fs-1" ref={arrowRef} />
                   </a>
                 </span>
               </div>
@@ -157,10 +157,10 @@ export default function Skills() {
                   <span>
                     <div id="aboutskill1" className="fs-4">
                       I have learned programming websites since 2020, and continue to use some library or framework for building website, currently I am using
-                      <a href="https://reactjs.org/" target="_blank" style={{ textDecoration: 'none', color: '#e0e0e0' }}>
+                      <a href="https://reactjs.org/" target="_blank" style={{ textDecoration: 'none', color: '#e8e8e8' }}>
                         {' '}
                         <span className="logoditext">
-                          ReactJS <i class="bx bxl-react" style={{ color: '#83deef', verticalAlign: 'middle' }} />
+                          ReactJS <i class="bx bxl-react" style={{ color: '#33bff4', verticalAlign: 'middle' }} />
                         </span>
                       </a>
                       for build websites, and below are some languages, frameworks or libraries that I use:
@@ -170,7 +170,7 @@ export default function Skills() {
                     </div>
                     {/* <div data-aos="flip-down"> */}
                     <a class="buttonkebawahskills" onClick={skill2}>
-                      <i class="bx bx-chevrons-down fs-1" />
+                      <i class="bx bxs-down-arrow-alt fs-1" />
                     </a>
                     {/* </div> */}
                   </span>

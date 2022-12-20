@@ -43,7 +43,7 @@ export default function Contact() {
     <>
       <div className="App">
         <div className="containerContact">
-          <span className="dashboardContact" style={{ color: '#e0e0e0' }}>
+          <span className="dashboardContact" style={{ color: '#e8e8e8' }}>
             <div>
               <span className=" fs-3" ref={textLeftRef}>
                 want to turn your idea into a site? lets work together

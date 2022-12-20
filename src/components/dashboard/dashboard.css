@@ -18,11 +18,13 @@
 }
 
 .bx-right-arrow-circle {
-  color: #e0e0e0;
+  /* color: #e0e0e0; */
+  color: #ffd401;
 }
 
 .bx-right-arrow-circle:hover {
-  color: #13fbe2;
+  color: #ffd401;
+  /* color: #13fbe2; */
   transition-duration: 0.8s;
 }
 

@@ -116,11 +116,11 @@ export default function About() {
                   </p>
                   <p class="fs-5" ref={dashboardTextRef}>
                     bio
-                    <span style={{ color: '#13fbe2' }}> & </span>
+                    <span style={{ color: '#33bff4' }}> & </span>
                     resume
                   </p>
                   <a onClick={aboutnih}>
-                    <i class="bx bx-chevrons-down  fs-1" ref={dashboardButton} />
+                    <i class="bx bxs-down-arrow-alt  fs-1" ref={dashboardButton} />
                   </a>
                   {/* <a href="#aboutnih">
                     <i class="bx bx-chevrons-down  fs-1" ref={dashboardButton} />
@@ -135,20 +135,25 @@ export default function About() {
                 <span>
                   <div id="aboutnih" className="fs-4">
                     I am enjoy building web apps using{' '}
-                    <a href="https://www.javascript.com/" target="_blank" style={{ textDecoration: 'none', color: '#e0e0e0' }}>
+                    <a href="https://www.javascript.com/" target="_blank" style={{ textDecoration: 'none', color: '#e8e8e8' }}>
                       <span className="logoditext">
                         Javascript <i class="bx bxs-file-js" style={{ color: '#fcdc00' }} />
                       </span>
                     </a>
                     and
-                    <a href="https://reactjs.org/" target="_blank" style={{ textDecoration: 'none', color: '#e0e0e0' }}>
+                    <a href="https://reactjs.org/" target="_blank" style={{ textDecoration: 'none', color: '#e8e8e8' }}>
                       <span className="logoditext">
-                        ReactJS <i class="bx bxl-react" style={{ color: '#83deef', verticalAlign: 'middle' }} />
+                        ReactJS <i class="bx bxl-react" style={{ color: '#33bff4', verticalAlign: 'middle' }} />
                       </span>
                     </a>
                     . I also have a good taste in UI/UX Design
                   </div>
-                  <button className="btnCV mt-3 mb-4 ">download CV</button>
+                  <button className="btnCV mt-3 mb-4 ">
+                    <span>
+                      download CV
+                      {/* <i class="bx bxs-cloud-download" style={{ fontSize: '20px' }}></i> */}
+                    </span>
+                  </button>
                   <br />
                   <div data-aos="fade-right">
                     <Link class="tombolSkills " to="/skills">

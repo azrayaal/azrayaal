@@ -60,7 +60,7 @@ export default function Dasboard() {
                 </span>
                 <br />
                 <Link to="/about">
-                  <i className="fs-1 bx bx-right-arrow-circle tombolHome" ref={arrowRef}></i>
+                  <i className="fs-1 bx bx-right-arrow-alt tombolHome" ref={arrowRef}></i>
                 </Link>
               </span>
             </div>

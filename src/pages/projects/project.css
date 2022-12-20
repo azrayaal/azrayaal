@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   height: 85vh;
-  color: white;
+  color: #e8e8e8;
 }
 .dashboardProject2 {
   display: flex;
@@ -12,7 +12,7 @@
   height: 100%;
   /* padding-bottom: 110px; */
   background-color: #111827;
-  color: #e0e0e0;
+  color: #e8e8e8;
 }
 
 #project {

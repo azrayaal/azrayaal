@@ -15,6 +15,7 @@ import React, { useEffect, useState } from 'react';
 
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Futer from './components/footer/footer';
+import Loader from './components/loader/loader';
 // ..
 
 function App() {
@@ -30,10 +31,7 @@ function App() {
   return (
     <Router>
       {loading ? (
-        <div className="loader">
-          {/* <HashLoader color="#36d7b7" size={80} /> */}
-          <NewtonsCradle size={60} color="#36d7b7" />
-        </div>
+        <Loader />
       ) : (
         <div className="App">
           <ScrollToTop />

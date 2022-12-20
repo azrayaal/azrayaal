@@ -1,8 +1,8 @@
-import React, { useRef, useEffect } from 'react';
-import './project.css';
-import CardsProject from '../../components/cards/cardsProject';
 import { gsap, Power3 } from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
+import React, { useEffect, useRef, useState } from 'react';
+import CardsProject from '../../components/cards/cardsProject';
+import './project.css';
 
 export default function Project() {
   const prjekKartu = () => {
@@ -107,10 +107,10 @@ export default function Project() {
                   </p>
                   <p class="fs-5" ref={detailTextRef}>
                     websites
-                    <span style={{ color: '#13fbe2' }}> that </span>I build
+                    <span style={{ color: '#33bff4' }}> that </span>I build
                   </p>
                   <a class="buttonkebawah" onClick={prjekKartu}>
-                    <i class="bx bx-chevrons-down fs-1" ref={arrowRef} />
+                    <i class="bx bxs-down-arrow-alt fs-1" ref={arrowRef} />
                   </a>
                 </span>
               </div>
@@ -119,6 +119,8 @@ export default function Project() {
             <div id="project" className="row align-items-center pb-5 mb-3" ref={projectRef}>
               <div className="dashboardProject2">
                 <CardsProject />
+
+                {/* <CardprojectCoba /> */}
               </div>
             </div>
             {/* //////////////// */}

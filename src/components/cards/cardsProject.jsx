@@ -28,6 +28,8 @@ export default function CardsProject() {
     return setShow(true);
   };
 
+  const renderHTML = (rawHTML) => React.createElement('div', { dangerouslySetInnerHTML: { __html: rawHTML } });
+
   return (
     <div className="containerProjek">
       <div class="row g-3" data-aos="fade-up">
@@ -56,6 +58,7 @@ export default function CardsProject() {
         </Link>
       </div>
       <ModalsItem
+        renderHTML={renderHTML}
         show={show}
         href={tempData[1]}
         handleClose={handleClose}

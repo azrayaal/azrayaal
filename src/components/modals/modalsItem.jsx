@@ -3,7 +3,7 @@ import { Modal } from 'react-bootstrap';
 import './modal.css';
 
 export default function ModalsItem(props) {
-  const { handleClose, show, name, src, logo, desc, href, name2, src2, logo2, desc2, href2, tombolshow } = props;
+  const { handleClose, show, name, src, logo, renderHTML, desc, href, name2, src2, logo2, desc2, href2, tombolshow } = props;
   const [show2, setShow2] = useState(false);
   const handleShow = () => setShow2(true);
   const handleClose2 = () => setShow2(false);
@@ -18,15 +18,17 @@ export default function ModalsItem(props) {
             <figcaption>
               <div class="bodymodal">
                 <h3>{name}</h3>
-                <p style={{ textAlign: 'justify' }}>{desc}</p>
+                <p style={{ textAlign: 'justify' }}>{renderHTML(`${desc}`)}</p>
                 <div className="footermodal">{logo}</div>
               </div>
             </figcaption>
-            <button href={href} className="buttonmodal">
-              <span>View</span>
-            </button>
+            <a href={href} target="_blank">
+              <button className="buttonmodal">
+                <span>View</span>
+              </button>
+            </a>
             {tombolshow === true ? (
-              <button href={href} className="buttonmodal2" tombolshow={tombolshow} onClick={handleShow}>
+              <button className="buttonmodal2" tombolshow={tombolshow} onClick={handleShow}>
                 <span>Seee</span>
               </button>
             ) : (
@@ -44,13 +46,15 @@ export default function ModalsItem(props) {
             <figcaption>
               <div class="bodymodal">
                 <h3>{name2}</h3>
-                <p>{desc2}</p>
+                <p>{renderHTML(`${desc2}`)}</p>
               </div>
               <div className="figurecaptionfooter">{logo2}</div>
             </figcaption>
             <div className="flex">
               <button href={href2} className="buttonmodal">
-                <span>View</span>
+                <a href={href2}>
+                  <span>View</span>
+                </a>
               </button>
               <button className="buttonmodal2" onClick={handleClose2}>
                 <span>back</span>

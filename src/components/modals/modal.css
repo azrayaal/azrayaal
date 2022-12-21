@@ -1,0 +1,179 @@
+.my-modal .modal-content {
+  /* background-color: red !important; */
+}
+
+.container-fluids {
+  width: 100%;
+  height: 100%;
+  background-color: red !important;
+  /* padding-bottom: 100px; */
+  position: absolute;
+  border-radius: 10px;
+  /* overflow: hidden; */
+}
+
+figure {
+  height: 450px;
+
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+
+.media {
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  transition: all 0.3s ease;
+  width: 100%;
+  /* filter: grayscale(70%); */
+}
+/* buttonmodal1 */
+.buttonmodal {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #183153;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border: none;
+  margin: 15px;
+  box-shadow: 0px 4px 10px 0px black;
+}
+
+.buttonmodal:after {
+  content: ' ';
+  width: 0%;
+  height: 100%;
+  background: #ffd401;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+}
+
+.buttonmodal:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+
+.buttonmodal span {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 8px 12px;
+  color: #fcdc00;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+}
+
+.buttonmodal:hover span {
+  color: #183153;
+  animation: scaleUp 0.3s ease-in-out;
+}
+
+/* buttonmodal2 */
+.buttonmodal2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #183153;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border: none;
+  margin-bottom: 15px;
+  margin-right: 125px;
+  box-shadow: 0px 4px 10px 0px black;
+}
+
+.buttonmodal2:after {
+  content: ' ';
+  width: 0%;
+  height: 100%;
+  background: #ffd401;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+}
+
+.buttonmodal2:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+
+.buttonmodal2 span {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 8px 12px;
+  color: #fcdc00;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+}
+
+.buttonmodal2:hover span {
+  color: #183153;
+  animation: scaleUp 0.3s ease-in-out;
+}
+
+figure:hover .media {
+  transform: scale(1.05);
+}
+
+figcaption {
+  height: ~'calc(100% - 20px)';
+  margin: 15px;
+  left: 0;
+  position: absolute;
+  bottom: 0;
+  /* padding-bottom: 1000px; */
+  /* top: 1000 !important; */
+  width: 250px;
+}
+
+.bodymodal {
+  background-color: #e8e8e8;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px 0px black;
+  bottom: 0;
+  padding: 15px;
+  position: absolute;
+  width: 100%;
+  shadow: 10px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 480px) {
+  .bodymodal {
+    padding-bottom: 50px !important;
+  }
+  .media {
+    width: 450px;
+    height: 500px;
+  }
+  figcaption {
+    width: 100%;
+    margin: 0px;
+  }
+  .buttonmodal {
+    /* visibility: hidden; */
+  }
+}

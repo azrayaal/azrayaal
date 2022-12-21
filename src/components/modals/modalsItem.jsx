@@ -1,31 +1,63 @@
 import React, { useState } from 'react';
-import { Modal, Button } from 'react-bootstrap';
+import { Modal } from 'react-bootstrap';
+import './modal.css';
 
-// export default function ModalsItem() {
 export default function ModalsItem(props) {
-  const { show, handleClose, handleShow } = props;
+  const { handleClose, show, name, src, logo, desc, href, name2, src2, logo2, desc2, href2, tombolshow } = props;
+  const [show2, setShow2] = useState(false);
+  const handleShow = () => setShow2(true);
+  const handleClose2 = () => setShow2(false);
 
   return (
     <>
-      <button class="float-end d-flex buttonView" onClick={handleShow}>
-        <span>view</span>
-      </button>
-      {/* <Button className="nextButton" onClick={handleShow}>
-        Open Modal
-      </Button> */}
-      <Modal show={show} onHide={handleClose} backdrop="red" keyboard="false">
-        <Modal.Header closeButton>
-          <Modal.Title>title</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
-        </Modal.Footer>
+      <Modal size="xl" show={show} onHide={handleClose} keyboard="false" className="my-modal">
+        <div class="container-fluids">
+          <figure>
+            <img class="media" src={src}></img>
+            {/* <div class="media" style={{ backgroundImage: `url(${src})` }}></div> */}
+            <figcaption>
+              <div class="bodymodal">
+                <h3>{name}</h3>
+                <p style={{ textAlign: 'justify' }}>{desc}</p>
+                <div className="footermodal">{logo}</div>
+              </div>
+            </figcaption>
+            <button href={href} className="buttonmodal">
+              <span>View</span>
+            </button>
+            {tombolshow === true ? (
+              <button href={href} className="buttonmodal2" tombolshow={tombolshow} onClick={handleShow}>
+                <span>Seee</span>
+              </button>
+            ) : (
+              ''
+            )}
+          </figure>
+        </div>
+      </Modal>
+      {/* MODAL2 */}
+      <Modal size="xl" show={show2} onHide={handleClose} keyboard="false" className="my-modal">
+        <div class="container-fluids">
+          <figure>
+            <img class="media" src={src2}></img>
+            {/* <div class="media" style={{ backgroundImage: `url(${src})` }}></div> */}
+            <figcaption>
+              <div class="bodymodal">
+                <h3>{name2}</h3>
+                <p>{desc2}</p>
+              </div>
+              <div className="figurecaptionfooter">{logo2}</div>
+            </figcaption>
+            <div className="flex">
+              <button href={href2} className="buttonmodal">
+                <span>View</span>
+              </button>
+              <button className="buttonmodal2" onClick={handleClose2}>
+                <span>back</span>
+              </button>
+            </div>
+          </figure>
+        </div>
       </Modal>
     </>
   );

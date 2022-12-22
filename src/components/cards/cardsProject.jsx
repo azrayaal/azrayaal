@@ -36,7 +36,8 @@ export default function CardsProject() {
         {data.projects.map((item, index) => (
           <div class="col-md-4 col-12 " key={index} href={item.href} src={item.src}>
             <Card className="kartuProjek" style={{ width: '18rem' }}>
-              <img className="p-2" variant="top" src={item.src} style={{ borderRadius: '15px' }} />
+              {!item.thumbnailsrc ? <img className="p-2" variant="top" src={item.src} style={{ borderRadius: '15px' }} /> : <img className="p-2" variant="top" src={item.thumbnailsrc} style={{ borderRadius: '15px' }} />}
+              {/* <img className="p-2" variant="top" src={item.src} style={{ borderRadius: '15px' }} /> */}
               <div className="judulproject">
                 {/* <h5 className="float-start text-start d-flex ps-2">{renderHTML(`${item.name}`)}</h5> */}
 

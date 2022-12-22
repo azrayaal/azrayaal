@@ -9,6 +9,8 @@ import storeGG from './storeGG.png';
 import adminggstore from './serverstoregg.png';
 import typingtest from './testTyping.png';
 import Topup from './TopUpGames.png';
+import thumbnailStore from './thumbnailMERNstore.png';
+import thumbnailEvent from './thumbnailMERNLeisure.png';
 // import { box-icon } from 'boxicons';
 
 const data = {
@@ -23,6 +25,7 @@ const data = {
       ],
       href: 'http://storegg.azrayaal.space/',
       src: storeGG,
+      thumbnailsrc: thumbnailStore,
       year: 'MERN',
       logo: [
         <div
@@ -63,7 +66,7 @@ const data = {
           <box-icon name="nodejs" type="logo" color="#80cd2e"></box-icon>
         </div>,
       ],
-      desc: '<p>Azrayaal GG Store is a website that provides payment or top-up services for various online games. This website has several&nbsp;features such as:</p><ol><li>top up</li><li>sign-up</li><li>login</li><li>and transaction history</li></ol><p>This website was developed by using <strong>NEXT </strong>and <strong>Bootstrap</strong></p>',
+      desc: '<p>Azrayaal GG Store is a website that provides payment or top-up services for various online games. This website has several&nbsp;features such as:</p><ol><li>top up</li><li>sign-up</li><li>login</li><li>and transaction history</li></ol><p>This website was developed by using <strong>NEXT, </strong></strong><strong>Typescript </strong>and <strong>Bootstrap</strong></p>',
       // server
       name2: 'Admin store GG',
       href2: 'http://serverstoregg.azrayaal.space/',
@@ -83,12 +86,12 @@ const data = {
         </div>,
       ],
       desc2:
-        '<p>GG store admin is a website that is integrated with the GG azrayaal Store website as an admin or server website that has several features such as:</p><ol><li>&nbsp;adding game vouchers</li><li>controlling transactions.</li><li>controlling payments.</li></ol><p>&nbsp;</p><p>This website was developed by using <strong>NodeJS</strong>,&nbsp;<strong>ExpressJS&nbsp;</strong>with <strong>MongoDB&nbsp;</strong>as its database</p>',
+        '<p>GG store admin is a website that is integrated with the website GG azrayaal Store  as an admin or website server, it has several features such as:</p><ol><li>&nbsp;adding game vouchers</li><li>controlling transactions.</li><li>controlling payments.</li></ol><p>This website was developed by using <strong>NodeJS</strong>,&nbsp;<strong>ExpressJS&nbsp;</strong>with <strong>MongoDB&nbsp;</strong>as its database</p>',
       tombolshow: true,
     },
     {
       id: 2,
-      name: 'Web Event',
+      name: 'Leisure Event',
       nameThumbnail: [
         <div style={{ fontSize: '18px' }}>
           ● Leisure Event <br />● Admin Leisure
@@ -96,6 +99,7 @@ const data = {
       ],
       href: 'https://eventleisure.azrayaal.space/',
       src: leisurevent,
+      thumbnailsrc: thumbnailEvent,
       year: 'MERN',
       logo: [
         <div
@@ -137,9 +141,9 @@ const data = {
         </div>,
       ],
 
-      desc: 'Website that builds by using NextJS and Tailwind, this website has a function for ',
+      desc: '<p>Leisure Event is a website that provides ticket for various events. This website has several&nbsp;features such as:</p><ol><li>ticket payment</li><li>event request</li><li>sign-up</li><li>login</li><li>and transaction history</li></ol><p>This website was developed by using <strong>NEXT, </strong><strong>Typescript </strong>and <strong>Tailwind</strong></p>',
       // server
-      name2: 'Admin Web Event',
+      name2: 'Leisure Admin',
       href2: 'https://eventleisure.azrayaal.space/',
       src2: serverLeisureEvent,
       year2: 'MERN',
@@ -156,7 +160,8 @@ const data = {
           <box-icon name="nodejs" type="logo" color="#80cd2e"></box-icon>
         </div>,
       ],
-      desc2: 'Codashop merupakan salah satu penyedia jasa pembayaran atau top-up untuk berbagai game online serta Steam dan Google Play. Sekarang kamu tidak perlu repot untuk melakukan pembayaran lewat Codashop karena ',
+      desc2:
+        '<p>Leisure Admin is a website that is integrated with the website Leisure Event as an admin or website server,  it has several features such as:</p><ol><li>&nbsp;adding event.</li><li>adding ticket.</li><li>controlling transactions.</li><li>controlling payments.</li></ol><p></p><p>This website was developed by using <strong>NodeJS</strong>,&nbsp;<strong>ExpressJS&nbsp;</strong>with <strong>MongoDB&nbsp;</strong>as its database</p>',
       tombolshow: true,
     },
     {
@@ -166,7 +171,7 @@ const data = {
       src: filmReview,
       year: '2022',
       logo: [<box-icon type="logo" className="" color="#3db8b8" name="react" />, <box-icon name="bootstrap" type="logo" color="#52377C" />],
-      desc: '<p>Azrayaal movie review is a website that helps you to find Trending movies, series, or box offices based on OMDB</p><p>&nbsp;</p><p>This website was developed by using <strong>React </strong>and <strong>Bootstrap</strong></p>',
+      desc: '<p>Azrayaal movie review is a website that helps you to find Trending movies, series, or box offices based on OMDB</p><p>This website was developed by using <strong>React </strong>and <strong>Bootstrap</strong></p>',
       tombolshow: false,
     },
     {
@@ -176,7 +181,7 @@ const data = {
       src: gatotngaca,
       year: '2022',
       logo: [<box-icon type="logo" className="" color="#3db8b8" name="react" />, <box-icon name="tailwind-css" type="logo" color="#0ed3cf" />],
-      desc: '<p>Gatot Ngoco is a web-based search engine with Wikipedia API, this search engine was inspired by Jhonny G. Plate</p><p>&nbsp;</p><p>Gatot Ngoco was developed by using <strong>React </strong>and <strong>Tailwind</strong></p>',
+      desc: '<p>Gatot Ngoco is a web-based search engine with Wikipedia API, this search engine was inspired by Jhonny G. Plate</p><p>Gatot Ngoco was developed by using <strong>React </strong>and <strong>Tailwind</strong></p>',
     },
 
     {
@@ -186,7 +191,7 @@ const data = {
       src: typingtest,
       year: '2022',
       logo: [<box-icon type="logo" className="" color="#3db8b8" name="react" />, <box-icon name="bootstrap" type="logo" color="#52377C" />],
-      desc: '<p>Typing Test is a website that helps you to practice your typing speed, it offers a free online&nbsp;<em>Typing Test because t</em>he faster you type, the faster you communicate with others. With our free&nbsp;<em>typing</em>&nbsp;speed&nbsp;<em>test</em>, you can check your WPM&nbsp;<em>typing</em>&nbsp;scores in a flash!</p><p>&nbsp;</p><p>This website was developed by using <strong>ReactJS </strong>and <strong>Bootstrap</strong></p>',
+      desc: '<p>Typing Test is a website that helps you to practice your typing speed, it offers a free online&nbsp;<em>Typing Test because t</em>he faster you type, the faster you communicate with others. With our free&nbsp;<em>typing</em>&nbsp;speed&nbsp;<em>test</em>, you can check your WPM&nbsp;<em>typing</em>&nbsp;scores in a flash!</p><p>This website was developed by using <strong>ReactJS </strong>and <strong>Bootstrap</strong></p>',
     },
     {
       id: 6,

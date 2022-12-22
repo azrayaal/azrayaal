@@ -21,8 +21,8 @@ export default function CardsProject() {
   // const handleShow = () => setShow(true);
   const [tempData, setTemptData] = useState([]);
 
-  const getData = (name, href, src, year, logo, desc, name2, src2, logo2, desc2, href2, tombolshow) => {
-    let tempData = [name, href, src, year, logo, desc, name2, src2, logo2, desc2, href2, tombolshow];
+  const getData = (name, href, src, year, logo, desc, name2, src2, logo2, desc2, href2, tombolshow, nameThumbnail, logoThumbnail) => {
+    let tempData = [name, href, src, year, logo, desc, name2, src2, logo2, desc2, href2, tombolshow, nameThumbnail, logoThumbnail];
     console.log('data sementara', tempData);
     setTemptData((item) => [...tempData]);
     return setShow(true);
@@ -31,22 +31,28 @@ export default function CardsProject() {
   const renderHTML = (rawHTML) => React.createElement('div', { dangerouslySetInnerHTML: { __html: rawHTML } });
 
   return (
-    <div className="containerProjek">
+    <div className="containerProjek ">
       <div class="row g-3" data-aos="fade-up">
         {data.projects.map((item, index) => (
           <div class="col-md-4 col-12 " key={index} href={item.href} src={item.src}>
             <Card className="kartuProjek" style={{ width: '18rem' }}>
               <img className="p-2" variant="top" src={item.src} style={{ borderRadius: '15px' }} />
               <div className="judulproject">
-                <h5 className="float-start d-flex p-2">{item.name}</h5>
-                <button class="float-end d-flex buttonView" onClick={() => getData(item.name, item.href, item.year, item.logo, item.src, item.desc, item.name2, item.src2, item.logo2, item.desc2, item.href2, item.tombolshow)}>
+                {/* <h5 className="float-start text-start d-flex ps-2">{renderHTML(`${item.name}`)}</h5> */}
+
+                {!item.nameThumbnail ? <h5 className="float-start text-start d-flex ps-2"> {item.name}</h5> : <h5 className="float-start text-start d-flex ps-2"> {item.nameThumbnail}</h5>}
+                <button
+                  class="float-end d-flex buttonView"
+                  onClick={() => getData(item.name, item.href, item.year, item.logo, item.src, item.desc, item.name2, item.src2, item.logo2, item.desc2, item.href2, item.tombolshow, item.nameThumbnail, item.logoThumbnail)}
+                >
                   <span>view</span>
                 </button>
               </div>
               <div className="p-2 ">
                 <Card.Text className="float-start d-flex ">{item.year}</Card.Text>
                 <div className="float-end d-flex profile-icons">
-                  <div class="px-1 ">{item.logo}</div>
+                  {/* <div class="px-1 ">{item.logo}</div> */}
+                  {!item.logoThumbnail ? <div class="px-1 ">{item.logo}</div> : <div class="px-1 ">{item.logoThumbnail}</div>}
                 </div>
               </div>
             </Card>
@@ -70,8 +76,10 @@ export default function CardsProject() {
         name2={tempData[6]}
         src2={tempData[7]}
         desc2={tempData[9]}
-        logo2={tempData[3]}
+        logo2={tempData[8]}
         tombolshow={tempData[11]}
+        // nameThumbnail={tempData[12]}
+        // logoThumbnail={tempData[13]}
       />
     </div>
   );

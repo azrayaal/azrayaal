@@ -91,6 +91,8 @@
 .kartuProjek {
   background-color: #282f3c !important;
   transition: 0.5s ease-out;
+  max-height: 250px;
+  min-height: 260px;
 }
 
 .kartuProjek:hover {

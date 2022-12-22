@@ -146,7 +146,7 @@ figcaption {
   bottom: 0;
   /* padding-bottom: 1000px; */
   /* top: 1000 !important; */
-  width: 350px;
+  width: 400px;
 }
 
 .bodymodal {
@@ -159,6 +159,10 @@ figcaption {
   width: 100%;
   shadow: 10px;
   text-align: justify;
+}
+
+.footermodal {
+  position: relative;
 }
 
 @media screen and (max-width: 480px) {

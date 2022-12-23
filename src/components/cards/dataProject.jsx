@@ -66,7 +66,7 @@ const data = {
           <box-icon name="nodejs" type="logo" color="#80cd2e"></box-icon>
         </div>,
       ],
-      desc: '<p>Azrayaal GG Store is a website that provides payment or top-up services for various online games. This website has several&nbsp;features such as:</p><ol><li>top up</li><li>sign-up</li><li>login</li><li>and transaction history</li></ol><p>This website was developed by using <strong>NEXT, </strong></strong><strong>Typescript </strong>and <strong>Bootstrap</strong></p>',
+      desc: '<p>Azrayaal GG Store is a website that provides payment or top-up services for various online games. This website has several&nbsp;features such as:</p><ol><li>top up</li><li>sign-up</li><li>login</li><li>and transaction history</li></ol><p>This website was developed by using <strong>NEXT, </strong></strong><strong>Typescript </strong>and <strong>Bootstrap</strong>.</p>',
       // server
       name2: 'Admin store GG',
       href2: 'http://serverstoregg.azrayaal.space/',
@@ -86,9 +86,10 @@ const data = {
         </div>,
       ],
       desc2:
-        '<p>GG store admin is a website that is integrated with the website GG azrayaal Store  as an admin or website server, it has several features such as:</p><ol><li>&nbsp;adding game vouchers</li><li>controlling transactions.</li><li>controlling payments.</li></ol><p>This website was developed by using <strong>NodeJS</strong>,&nbsp;<strong>ExpressJS&nbsp;</strong>with <strong>MongoDB&nbsp;</strong>as its database</p>',
+        '<p>GG store admin is a website that is integrated with the website GG azrayaal Store  as an admin or website server, it has several features such as:</p><ol><li>&nbsp;adding game vouchers</li><li>controlling transactions.</li><li>controlling payments.</li></ol><p>This website was developed by using <strong>NodeJS</strong>,&nbsp;<strong>ExpressJS&nbsp;</strong>with <strong>MongoDB&nbsp;</strong>as its database.</p>',
       tombolshow: true,
     },
+
     {
       id: 2,
       name: 'Leisure Event',
@@ -141,7 +142,7 @@ const data = {
         </div>,
       ],
 
-      desc: '<p>Leisure Event is a website that provides ticket for various events. This website has several&nbsp;features such as:</p><ol><li>ticket payment</li><li>event request</li><li>sign-up</li><li>login</li><li>and transaction history</li></ol><p>This website was developed by using <strong>NEXT, </strong><strong>Typescript </strong>and <strong>Tailwind</strong></p>',
+      desc: '<p>Leisure Event is a website that provides ticket for various events. This website has several&nbsp;features such as:</p><ol><li>ticket payment</li><li>event request</li><li>sign-up</li><li>login</li><li>and transaction history</li></ol><p>This website was developed by using <strong>NEXT, </strong><strong>Typescript </strong>and <strong>Tailwind</strong>.</p>',
       // server
       name2: 'Leisure Admin',
       href2: 'https://eventleisure.azrayaal.space/',
@@ -161,9 +162,10 @@ const data = {
         </div>,
       ],
       desc2:
-        '<p>Leisure Admin is a website that is integrated with the website Leisure Event as an admin or website server,  it has several features such as:</p><ol><li>&nbsp;adding event.</li><li>adding ticket.</li><li>controlling transactions.</li><li>controlling payments.</li></ol><p></p><p>This website was developed by using <strong>NodeJS</strong>,&nbsp;<strong>ExpressJS&nbsp;</strong>with <strong>MongoDB&nbsp;</strong>as its database</p>',
+        '<p>Leisure Admin is a website that is integrated with the website Leisure Event as an admin or website server,  it has several features such as:</p><ol><li>&nbsp;adding event.</li><li>adding ticket.</li><li>controlling transactions.</li><li>controlling payments.</li></ol><p></p><p>This website was developed by using <strong>NodeJS</strong>,&nbsp;<strong>ExpressJS&nbsp;</strong>with <strong>MongoDB&nbsp;</strong>as its database.</p>',
       tombolshow: true,
     },
+
     {
       id: 3,
       name: 'Film Review',
@@ -171,9 +173,10 @@ const data = {
       src: filmReview,
       year: '2022',
       logo: [<box-icon type="logo" className="" color="#3db8b8" name="react" />, <box-icon name="bootstrap" type="logo" color="#52377C" />],
-      desc: '<p>Azrayaal movie review is a website that helps you to find Trending movies, series, or box offices based on OMDB</p><p>This website was developed by using <strong>React </strong>and <strong>Bootstrap</strong></p>',
+      desc: '<p>Azrayaal movie review is a website that helps you to find Trending movies, series, or box offices based on OMDB</p><p>This website was developed by using <strong>React </strong>and <strong>Bootstrap</strong>.</p>',
       tombolshow: false,
     },
+
     {
       id: 4,
       name: 'Search Engine',
@@ -181,7 +184,7 @@ const data = {
       src: gatotngaca,
       year: '2022',
       logo: [<box-icon type="logo" className="" color="#3db8b8" name="react" />, <box-icon name="tailwind-css" type="logo" color="#0ed3cf" />],
-      desc: '<p>Gatot Ngoco is a web-based search engine with Wikipedia API, this search engine was inspired by Jhonny G. Plate</p><p>Gatot Ngoco was developed by using <strong>React </strong>and <strong>Tailwind</strong></p>',
+      desc: '<p>Gatot Ngoco is a web-based search engine with Wikipedia API, this search engine was inspired by Jhonny G. Plate</p><p>Gatot Ngoco was developed by using <strong>React </strong>and <strong>Tailwind</strong>.</p>',
     },
 
     {
@@ -191,8 +194,9 @@ const data = {
       src: typingtest,
       year: '2022',
       logo: [<box-icon type="logo" className="" color="#3db8b8" name="react" />, <box-icon name="bootstrap" type="logo" color="#52377C" />],
-      desc: '<p>Typing Test is a website that helps you to practice your typing speed, it offers a free online&nbsp;<em>Typing Test because t</em>he faster you type, the faster you communicate with others. With our free&nbsp;<em>typing</em>&nbsp;speed&nbsp;<em>test</em>, you can check your WPM&nbsp;<em>typing</em>&nbsp;scores in a flash!</p><p>This website was developed by using <strong>ReactJS </strong>and <strong>Bootstrap</strong></p>',
+      desc: '<p>Typing Test is a website that helps you to practice your typing speed, it offers a free online&nbsp;<em>Typing Test because t</em>he faster you type, the faster you communicate with others. With our free&nbsp;<em>typing</em>&nbsp;speed&nbsp;<em>test</em>, you can check your WPM&nbsp;<em>typing</em>&nbsp;scores in a flash!</p><p>This website was developed by using <strong>ReactJS </strong>and <strong>Bootstrap</strong>.</p>',
     },
+
     {
       id: 6,
       name: 'Topup Game',
@@ -200,8 +204,9 @@ const data = {
       src: Topup,
       year: '2022',
       logo: [<box-icon type="logo" className="" color="#3db8b8" name="react" />, <box-icon name="bootstrap" type="logo" color="#52377C" />],
-      desc: 'Enamel pin selvage health goth edison bulb, venmo glossier tattooed hella butcher cred iPhone.',
+      desc: '<p>Topup Game is a website that provides payment or top-up services for various online games. </p><p>This website was developed by using <strong>ReactJS </strong>and <strong>Bootstrap</strong>.</p>',
     },
+
     {
       id: 7,
       name: 'Random Quotes',
@@ -209,26 +214,27 @@ const data = {
       src: quotes,
       year: '2022',
       logo: [<box-icon type="logo" className="" color="#3db8b8" name="react" />, <box-icon name="bootstrap" type="logo" color="#52377C" />],
-      desc: 'Enamel pin selvage health goth edison bulb, venmo glossier tattooed hella butcher cred iPhone.',
+      desc: '<p>Random Quotes is a website that provides random motivatonal quotes </p><p>This website was developed by using <strong>ReactJS </strong>and <strong>Bootstrap</strong>.</p>',
     },
 
     {
       id: 8,
-      name: 'Company Profile',
+      name: 'Leisure Blog',
       href: 'https://leisureblogwp.azrayaal.space/',
       src: leisureblog,
       year: '2022',
-      logo: [<box-icon name="wordpress" type="logo" color="#e8e8e8"></box-icon>],
-      desc: 'Enamel pin selvage health goth edison bulb, venmo glossier tattooed hella butcher cred iPhone.',
+      logo: [<box-icon name="wordpress" type="logo" color="black"></box-icon>],
+      desc: '<p>Leisure Blog is a website that provides about company profile</p><p>This website was developed by using <strong>Wordpress</strong>. </p>',
     },
+
     {
       id: 9,
       name: 'Leisure Store',
       href: 'https://leisurestorewp.azrayaal.space/',
       src: leisurestore,
       year: '2022',
-      logo: [<box-icon name="wordpress" type="logo" color="#e8e8e8"></box-icon>],
-      desc: 'Enamel pin selvage health goth edison bulb, venmo glossier tattooed hella butcher cred iPhone.',
+      logo: [<box-icon name="wordpress" type="logo" color="black"></box-icon>],
+      desc: '<p>Leisure Store is E-commerce website-based that provides about cool stuff</p><p>This website was developed by using <strong>Wordpress</strong>.</p>',
     },
   ],
 };

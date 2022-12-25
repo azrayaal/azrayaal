@@ -23,7 +23,7 @@ const data = {
           ● Store azrayaal <br />● Admin azrayaal
         </div>,
       ],
-      href: 'http://storegg.azrayaal.space/',
+      href: 'https://store-gg-azrayaal-nlue3m07h-spacerangeeer-gmailcom.vercel.app/',
       src: storeGG,
       thumbnailsrc: thumbnailStore,
       year: 'MERN',
@@ -98,7 +98,7 @@ const data = {
           ● Leisure Event <br />● Admin Leisure
         </div>,
       ],
-      href: 'https://eventleisure.azrayaal.space/',
+      href: 'https://leisure-event.vercel.app/',
       src: leisurevent,
       thumbnailsrc: thumbnailEvent,
       year: 'MERN',
@@ -145,7 +145,7 @@ const data = {
       desc: '<p>Leisure Event is a website that provides ticket for various events. This website has several&nbsp;features such as:</p><ol><li>ticket payment</li><li>event request</li><li>sign-up</li><li>login</li><li>and transaction history</li></ol><p>This website was developed by using <strong>NEXT, </strong><strong>Typescript </strong>and <strong>Tailwind</strong>.</p>',
       // server
       name2: 'Leisure Admin',
-      href2: 'https://eventleisure.azrayaal.space/',
+      href2: 'https://admin-leisureevent.herokuapp.com/',
       src2: serverLeisureEvent,
       year2: 'MERN',
       logo2: [

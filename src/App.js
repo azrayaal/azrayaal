@@ -16,6 +16,7 @@ import React, { useEffect, useState } from 'react';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Futer from './components/footer/footer';
 import Loader from './components/loader/loader';
+import Pagenotfound from './pages/404';
 // ..
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
             <Route path="/skills" element={<Skills />} />
             <Route path="/project" element={<Project />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<Pagenotfound />} />
           </Routes>
           <Futer />
         </div>

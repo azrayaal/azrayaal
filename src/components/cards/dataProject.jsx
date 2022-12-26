@@ -17,13 +17,13 @@ const data = {
   projects: [
     {
       id: 1,
-      name: 'Store azrayaal',
+      name: 'Azrayaal GG store',
       nameThumbnail: [
         <div style={{ fontSize: '18px' }}>
           ● Store azrayaal <br />● Admin azrayaal
         </div>,
       ],
-      href: 'https://store-gg-azrayaal-nlue3m07h-spacerangeeer-gmailcom.vercel.app/',
+      href: 'https://azrayaalggstore-5zdo5gxt3-azrayal.vercel.app/',
       src: storeGG,
       thumbnailsrc: thumbnailStore,
       year: 'MERN',
@@ -68,8 +68,8 @@ const data = {
       ],
       desc: '<p>Azrayaal GG Store is a website that provides payment or top-up services for various online games. This website has several&nbsp;features such as:</p><ol><li>top up</li><li>sign-up</li><li>login</li><li>and transaction history</li></ol><p>This website was developed by using <strong>NEXT, </strong></strong><strong>Typescript </strong>and <strong>Bootstrap</strong>.</p>',
       // server
-      name2: 'Admin store GG',
-      href2: 'http://serverstoregg.azrayaal.space/',
+      name2: 'Admin azrayaal store',
+      href2: 'https://admin-storeazrayaal.herokuapp.com/',
       src2: adminggstore,
       year2: '2022',
       logo2: [

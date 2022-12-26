@@ -23,7 +23,7 @@ export default function CardsProject() {
 
   const getData = (name, href, src, year, logo, desc, name2, src2, logo2, desc2, href2, tombolshow, nameThumbnail, logoThumbnail) => {
     let tempData = [name, href, src, year, logo, desc, name2, src2, logo2, desc2, href2, tombolshow, nameThumbnail, logoThumbnail];
-    console.log('data sementara', tempData);
+    // console.log('data sementara', tempData);
     setTemptData((item) => [...tempData]);
     return setShow(true);
   };
@@ -34,7 +34,7 @@ export default function CardsProject() {
     <div className="containerProjek ">
       <div class="row g-3" data-aos="fade-up">
         {data.projects.map((item, index) => (
-          <div class="col-md-4 col-12 " key={index} href={item.href} src={item.src}>
+          <div class="col-lg-4 col-md-6 col-12 " key={index} href={item.href} src={item.src}>
             <Card className="kartuProjek" style={{ width: '18rem' }}>
               {!item.thumbnailsrc ? <img className="p-2" variant="top" src={item.src} style={{ borderRadius: '15px' }} /> : <img className="p-2" variant="top" src={item.thumbnailsrc} style={{ borderRadius: '15px' }} />}
               {/* <img className="p-2" variant="top" src={item.src} style={{ borderRadius: '15px' }} /> */}

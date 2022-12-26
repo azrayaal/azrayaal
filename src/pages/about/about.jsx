@@ -100,6 +100,22 @@ export default function About() {
     );
   }, []);
 
+  const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch('CVAZRAYAAL.pdf').then((response) => {
+      response.blob().then((blob) => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+        // Setting various property values
+        let alink = document.createElement('a');
+        alink.href = fileURL;
+        alink.download = 'CVAZRAYAAL.pdf';
+        // alink.fileName = 'CVAZRAYAAL.pdf';
+        alink.click();
+      });
+    });
+  };
+
   return (
     <>
       <div className="App">
@@ -148,7 +164,7 @@ export default function About() {
                     </a>
                     . I also have a good taste in UI/UX Design
                   </div>
-                  <button className="btnCV mt-3 mb-4 ">
+                  <button className="btnCV mt-3 mb-4 " onClick={onButtonClick}>
                     <span>
                       download CV
                       {/* <i class="bx bxs-cloud-download" style={{ fontSize: '20px' }}></i> */}

@@ -86,7 +86,7 @@ const data = {
         </div>,
       ],
       desc2:
-        '<p>GG store admin is a website that is integrated with the website GG azrayaal Store  as an admin or website server, it has several features such as:</p><ol><li>&nbsp;adding game vouchers</li><li>controlling transactions.</li><li>controlling payments.</li></ol><p>This website was developed by using <strong>NodeJS</strong>,&nbsp;<strong>ExpressJS&nbsp;</strong>with <strong>MongoDB&nbsp;</strong>as its database.</p>',
+        '<p>GG store admin is a website that is integrated with the website GG azrayaal Store  as an admin or website server, it has several features such as:</p><ol><li>&nbsp;adding game vouchers</li><li>controlling transactions.</li><li>controlling payments.</li></ol><p><strong>adminazra@gmail.com</strong> || <strong>rahasia</strong> for log-in</p><p>This website was developed by using <strong>NodeJS</strong>,&nbsp;<strong>ExpressJS&nbsp;</strong>with <strong>MongoDB&nbsp;</strong>as its database.</p>',
       tombolshow: true,
     },
 
@@ -142,7 +142,7 @@ const data = {
         </div>,
       ],
 
-      desc: '<p>Leisure Event is a website that provides ticket for various events. This website has several&nbsp;features such as:</p><ol><li>ticket payment</li><li>event request</li><li>sign-up</li><li>login</li><li>and transaction history</li></ol><p>This website was developed by using <strong>NEXT, </strong><strong>Typescript </strong>and <strong>Tailwind</strong>.</p>',
+      desc: '<p>Leisure Event is a website that provides ticket for various events. This website has several&nbsp;features such as:</p><><li>ticket payment</li><li>event request</li><li>sign-up</li><li>login</li><li>and transaction history</li><p>This website was developed by using <strong>NEXT, </strong><strong>Typescript </strong>and <strong>Tailwind</strong>.</p>',
       // server
       name2: 'Leisure Admin',
       href2: 'https://admin-leisureevent.herokuapp.com/',
@@ -162,7 +162,7 @@ const data = {
         </div>,
       ],
       desc2:
-        '<p>Leisure Admin is a website that is integrated with the website Leisure Event as an admin or website server,  it has several features such as:</p><ol><li>&nbsp;adding event.</li><li>adding ticket.</li><li>controlling transactions.</li><li>controlling payments.</li></ol><p></p><p>This website was developed by using <strong>NodeJS</strong>,&nbsp;<strong>ExpressJS&nbsp;</strong>with <strong>MongoDB&nbsp;</strong>as its database.</p>',
+        '<p>Leisure Admin is a website that is integrated with the website Leisure Event as an admin or website server,  it has several features such as:</p><ol><li>&nbsp;adding event.</li><li>adding ticket.</li><li>controlling transactions.</li><li>controlling payments.</li></ol><p><strong>adminazra@gmail.com</strong> || <strong>rahasia</strong> for log-in</p><p>This website was developed by using <strong>NodeJS</strong>,&nbsp;<strong>ExpressJS&nbsp;</strong>with <strong>MongoDB&nbsp;</strong>as its database.</p>',
       tombolshow: true,
     },
 

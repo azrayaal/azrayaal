@@ -54,7 +54,7 @@ export default function ModalsItem(props) {
               {/* <div className="figurecaptionfooter">{logo2}</div> */}
             </figcaption>
             <div className="flex">
-              <a href={href2}>
+              <a href={href2} target="_blank">
                 <button className="buttonmodal">
                   <span>View</span>
                 </button>

@@ -40,3 +40,8 @@
     padding-bottom: 100px;
   }
 }
+@media screen and (min-height: 912px) {
+  .dashboardHome {
+    height: 95vh;
+  }
+}

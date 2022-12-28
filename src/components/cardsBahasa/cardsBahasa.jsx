@@ -3,60 +3,66 @@ import html from './html.png';
 import css from './css3.png';
 import js from './javascript.png';
 import bootstrap from './bootstrap.png';
-import tailwind from './tailwind-css.png';
+import tailwind from './tailwind2.png';
 import mongo from './mongodb.png';
-import express from './express.png';
+import express from './expressgelapan.png';
 import react from './react.png';
 import node from './node-js.png';
 import mysql from './mysql.png';
 import wordpress from './wordpress_PNG74.png';
+import nextjs from './nextgelapan.png';
+import redux from './redux.png';
 import './cardsBahasa.css';
 import AOS from 'aos';
 import { useEffect } from 'react';
 
 const kartubahasa = [
   {
-    href: 'https://leisureblogwp.azrayaal.space/',
+    // href: 'https://leisureblogwp.azrayaal.space/',
     src: html,
   },
   {
-    href: 'https://leisureblogwp.azrayaal.space/',
+    // href: 'https://leisureblogwp.azrayaal.space/',
     src: css,
   },
   {
-    href: 'https://leisureblogwp.azrayaal.space/',
+    href: 'https://www.javascript.com/',
     src: js,
   },
   {
-    href: 'https://leisureblogwp.azrayaal.space/',
+    href: 'https://getbootstrap.com/docs/5.1/getting-started/introduction/',
     src: bootstrap,
   },
   {
-    href: 'https://leisureblogwp.azrayaal.space/',
+    href: 'https://tailwindui.com/',
     src: tailwind,
   },
   {
-    href: 'https://leisureblogwp.azrayaal.space/',
+    href: 'https://www.mongodb.com/atlas/database',
     src: mongo,
   },
   {
-    href: 'https://leisureblogwp.azrayaal.space/',
+    href: 'https://expressjs.com/',
     src: express,
   },
   {
-    href: 'https://leisureblogwp.azrayaal.space/',
+    href: 'https://reactjs.org/',
     src: react,
   },
   {
-    href: 'https://leisureblogwp.azrayaal.space/',
+    href: 'https://nextjs.org/',
+    src: nextjs,
+  },
+  {
+    href: 'https://nodejs.org/en/',
     src: node,
   },
   {
-    href: 'https://leisureblogwp.azrayaal.space/',
+    href: 'https://www.mysql.com/',
     src: mysql,
   },
   {
-    href: 'https://leisureblogwp.azrayaal.space/',
+    href: 'https://wordpress.org/',
     src: wordpress,
   },
 ];

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './cardTools.css';
-import git from './git.png';
+import git from './githubterang.png';
 import postman from './postman.png';
 import vscode from './visual-studio-code.png';
 import github from './github (1).png';
@@ -8,19 +8,19 @@ import AOS from 'aos';
 
 const kartutools = [
   {
-    href: 'https://leisureblogwp.azrayaal.space/',
+    href: 'https://git-scm.com/',
     src: git,
   },
   {
-    href: 'https://leisureblogwp.azrayaal.space/',
+    href: 'https://www.postman.com/',
     src: postman,
   },
   {
-    href: 'https://leisureblogwp.azrayaal.space/',
+    href: 'https://code.visualstudio.com/',
     src: vscode,
   },
   {
-    href: 'https://leisureblogwp.azrayaal.space/',
+    href: 'https://github.com/',
     src: github,
   },
 ];

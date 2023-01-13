@@ -12,6 +12,7 @@ import Topup from './TopUpGames.png';
 import thumbnailStore from './thumbnailMERNstore.png';
 import thumbnailEvent from './thumbnailMERNLeisure.png';
 import galaxly from './galaxly.png';
+import ambd from './AMBD.png';
 // import { box-icon } from 'boxicons';
 
 const data = {
@@ -169,6 +170,16 @@ const data = {
 
     {
       id: 3,
+      name: 'AMDB',
+      href: 'https://ambd.azrayaal.space/',
+      src: ambd,
+      year: '2023',
+      logo: [<box-icon type="logo" className="" color="#3db8b8" name="react" />, <box-icon name="tailwind-css" type="logo" color="#0ed3cf" />],
+      desc: '<p>AMBD is a website that helps you to find Trending movies, series, or box offices based on OMDB</p><p>This website was developed by using <strong>React </strong>and <strong>Bootstrap</strong>.</p>',
+      tombolshow: false,
+    },
+    {
+      id: 4,
       name: 'Film Review',
       href: 'https://www.filmreview.azrayaal.space/',
       src: filmReview,
@@ -178,7 +189,7 @@ const data = {
       tombolshow: false,
     },
     {
-      id: 4,
+      id: 5,
       name: 'Galaxly',
       href: 'azrayaal.space',
       src: galaxly,
@@ -194,7 +205,7 @@ const data = {
     },
 
     {
-      id: 5,
+      id: 6,
       name: 'Search Engine',
       href: 'https://www.gatotngaca.azrayaal.space/',
       src: gatotngaca,
@@ -204,7 +215,7 @@ const data = {
     },
 
     {
-      id: 6,
+      id: 7,
       name: 'Typing Test',
       href: 'https://www.typing-test.azrayaal.space/',
       src: typingtest,
@@ -214,7 +225,7 @@ const data = {
     },
 
     {
-      id: 7,
+      id: 8,
       name: 'Topup Game',
       href: 'https://www.voucherweb.azrayaal.space/',
       src: Topup,
@@ -224,7 +235,7 @@ const data = {
     },
 
     {
-      id: 8,
+      id: 9,
       name: 'Random Quotes',
       href: 'https://www.quotes.azrayaal.space/',
       src: quotes,
@@ -234,7 +245,7 @@ const data = {
     },
 
     {
-      id: 9,
+      id: 10,
       name: 'Leisure Blog',
       href: 'https://leisureblogwp.azrayaal.space/',
       src: leisureblog,
@@ -244,7 +255,7 @@ const data = {
     },
 
     {
-      id: 10,
+      id: 11,
       name: 'Leisure Store',
       href: 'https://leisurestorewp.azrayaal.space/',
       src: leisurestore,

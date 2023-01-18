@@ -175,7 +175,7 @@ const data = {
       src: ambd,
       year: '2023',
       logo: [<box-icon type="logo" className="" color="#3db8b8" name="react" />, <box-icon name="tailwind-css" type="logo" color="#0ed3cf" />],
-      desc: '<p>AMBD is a website that helps you to find Trending movies, series, or box offices based on OMDB</p><p>This website was developed by using <strong>React </strong>and <strong>Bootstrap</strong>.</p>',
+      desc: '<p>AMBD is a website that helps you to find Trending movies, series, or box offices based on OMDB</p><p>This website was developed by using <strong>React </strong>and <strong>Tailwind</strong>.</p>',
       tombolshow: false,
     },
     {

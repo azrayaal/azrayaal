@@ -171,7 +171,7 @@ const data = {
     {
       id: 3,
       name: 'AMDB',
-      href: 'https://ambd.azrayaal.space/',
+      href: 'https://web-movie-nu.vercel.app/',
       src: ambd,
       year: '2023',
       logo: [<box-icon type="logo" className="" color="#3db8b8" name="react" />, <box-icon name="tailwind-css" type="logo" color="#0ed3cf" />],
@@ -207,7 +207,7 @@ const data = {
     {
       id: 6,
       name: 'Search Engine',
-      href: 'https://www.gatotngaca.azrayaal.space/',
+      href: 'https://searchengine-gatot-ngocok.vercel.app/',
       src: gatotngaca,
       year: '2022',
       logo: [<box-icon type="logo" className="" color="#3db8b8" name="react" />, <box-icon name="tailwind-css" type="logo" color="#0ed3cf" />],
@@ -217,7 +217,7 @@ const data = {
     {
       id: 7,
       name: 'Typing Test',
-      href: 'https://www.typing-test.azrayaal.space/',
+      href: 'https://test-typing-beta.vercel.app/',
       src: typingtest,
       year: '2022',
       logo: [<box-icon type="logo" className="" color="#3db8b8" name="react" />, <box-icon name="bootstrap" type="logo" color="#52377C" />],
@@ -237,7 +237,7 @@ const data = {
     {
       id: 9,
       name: 'Random Quotes',
-      href: 'https://www.quotes.azrayaal.space/',
+      href: 'https://quotes-opal.vercel.app/',
       src: quotes,
       year: '2022',
       logo: [<box-icon type="logo" className="" color="#3db8b8" name="react" />, <box-icon name="bootstrap" type="logo" color="#52377C" />],

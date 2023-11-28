@@ -27,6 +27,7 @@ function App() {
     setTimeout(() => {
       setLoading(false);
     }, 0);
+    // TODO CARI LOADER DAN AKTIFIN LAGI
     // TIME BUAT LOADERNYA
     // }, 2200);
   }, []);

@@ -26,7 +26,9 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2200);
+    }, 0);
+    // TIME BUAT LOADERNYA
+    // }, 2200);
   }, []);
 
   return (

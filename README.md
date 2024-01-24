@@ -1,4 +1,4 @@
-## <div align="center">Hi!! It's Azra🧐, a full-time full-stack freelance developer 👨‍💻</div>  
+## Hi!! It's Azra🧐, a full-time full-stack freelance developer 👨‍💻
   
 
 - 📖 I’m currently learning Next, and Typescript  

@@ -21,7 +21,6 @@
 
 
 
-
 ## Hi!! It's Azra🧐, a full-time full-stack freelance developer 👨‍💻
   
 

@@ -52,9 +52,9 @@ export default function Contact() {
               </span>
               <hr />
             </div>
-            <a href="mailto:azra@azrayaal.space" className="fs-4 emailaz" ref={emailRef}>
+            <a href="mailto:azrayazidalkautsar@gmail.com" className="fs-4 emailaz" ref={emailRef}>
               <i class="bx bxs-envelope"></i>
-              <span className="emaiil">azra@azrayaal.space</span>
+              <span className="emaiil">azrayazidalkautsar@gmail.com</span>
             </a>
           </span>
         </div>

@@ -2,8 +2,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+  /* height: 85vh; */
+  padding-top: 5rem;
   color: white;
+}
+
+
+
+.TitlePage {
+  letter-spacing: .4rem;
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* .text {

@@ -1,7 +1,24 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './footer.css';
 
 export default function Futer() {
+  const [year, setYear] = useState('');
+
+  useEffect(() => {
+    const newDate = () => {
+      const d = new Date();
+      let currentYear = d.getUTCFullYear();
+      setYear(currentYear);
+    };
+
+    newDate(); // Call the function when the component mounts
+
+    // Cleanup function to avoid memory leaks
+    return () => {
+      setYear(''); // Reset year when the component unmounts
+    };
+  }, []);
+
   return (
     <div className=" text-#e0e0e0 footer fixed-bottom">
       <div className="container-fluid futerlogo">
@@ -16,7 +33,7 @@ export default function Futer() {
             <i className="bx bxl-facebook-circle fs-3" style={{ color: '#e0e0e0' }}></i>
           </a>
         </span>
-        <div className="copyright">© 2022 made by azrayaal</div>
+        <div className="copyright">© {year} made by azrayaal</div>
       </div>
     </div>
   );

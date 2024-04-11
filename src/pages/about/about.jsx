@@ -1,9 +1,9 @@
-import React, { useEffect, useRef } from 'react';
-import { gsap, Power3 } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Link } from 'react-router-dom';
-import './about.css';
-import AOS from 'aos';
+import React, { useEffect, useRef } from "react";
+import { gsap, Power3 } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Link } from "react-router-dom";
+import "./about.css";
+import AOS from "aos";
 
 export default function About() {
   const aboutnih = () => {
@@ -20,7 +20,7 @@ export default function About() {
     AOS.init({
       offset: 200,
       duration: 800,
-      easing: 'ease-in-quad',
+      easing: "ease-in-quad",
       delay: 100,
     });
   }, []);
@@ -37,10 +37,10 @@ export default function About() {
         y: 0,
         scrollTrigger: {
           trigger: el,
-          start: 'top center',
-          end: 'top 100px',
+          start: "top center",
+          end: "top 100px",
           scrub: true,
-          toggleActions: 'play reverse play reverse',
+          toggleActions: "play reverse play reverse",
         },
       }
     );
@@ -102,14 +102,14 @@ export default function About() {
 
   const onButtonClick = () => {
     // using Java Script method to get PDF file
-    fetch('CVAZRAYAAL.pdf').then((response) => {
+    fetch("CVAZRAYAAL.pdf").then((response) => {
       response.blob().then((blob) => {
         // Creating new object of PDF file
         const fileURL = window.URL.createObjectURL(blob);
         // Setting various property values
-        let alink = document.createElement('a');
+        let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = 'CVAZRAYAAL.pdf';
+        alink.download = "CVAZRAYAAL.pdf";
         // alink.fileName = 'CVAZRAYAAL.pdf';
         alink.click();
       });
@@ -125,7 +125,7 @@ export default function About() {
           <div class="container">
             {/* //////////////// */}
             <div class="row align-items-center">
-              <div class="dashboarBio">
+              {/* <div class="dashboarBio">
                 <span>
                   <p class="glitch" ref={dashboardRef}>
                     about{' '}
@@ -135,31 +135,69 @@ export default function About() {
                     <span style={{ color: '#33bff4' }}> & </span>
                     resume
                   </p>
+                <br />
                   <a onClick={aboutnih}>
                     <i class="bx bxs-down-arrow-alt  fs-1" ref={dashboardButton} />
                   </a>
-                  {/* <a href="#aboutnih">
-                    <i class="bx bx-chevrons-down  fs-1" ref={dashboardButton} />
-                  </a> */}
+                </span>
+              </div> */}
+              <div class="dashboardHome">
+                <span className="pb-5">
+                  <p class="TitlePage" ref={dashboardRef}>
+                    about{" "}
+                  </p>
+                  <p class="fs-5" ref={dashboardTextRef}>
+                    bio
+                    <span style={{ color: "#33bff4" }}> & </span>
+                    resume
+                  </p>
+                  <br />
+                  <br />
+                  <a onClick={aboutnih}>
+                    <i
+                      class="bx bxs-down-arrow-alt  fs-1"
+                      ref={dashboardButton}
+                    />
+                  </a>
                 </span>
               </div>
             </div>
+
             {/* //////////////// */}
             {/* <div className={fadeIntxt ? 'row align-items-center fadeInAbout visible' : 'row align-items-center fadeInAbout'}> */}
-            <div className="row align-items-center fadeInAbout" ref={fadeinAboutRef}>
+            <div
+              className="row align-items-center fadeInAbout"
+              ref={fadeinAboutRef}
+            >
               <div class="dashboardAbout ">
                 <span>
                   <div id="aboutnih" className="fs-4">
-                    I am enjoy building web apps using{' '}
-                    <a href="https://www.javascript.com/" target="_blank" style={{ textDecoration: 'none', color: '#e8e8e8' }}>
+                    I am enjoy building web apps using{" "}
+                    <a
+                      href="https://www.javascript.com/"
+                      target="_blank"
+                      style={{ textDecoration: "none", color: "#e8e8e8" }}
+                    >
                       <span className="logoditext">
-                        Javascript <i class="bx bxs-file-js" style={{ color: '#fcdc00' }} />
+                        Javascript{" "}
+                        <i
+                          class="bx bxs-file-js"
+                          style={{ color: "#fcdc00" }}
+                        />
                       </span>
                     </a>
                     and
-                    <a href="https://reactjs.org/" target="_blank" style={{ textDecoration: 'none', color: '#e8e8e8' }}>
+                    <a
+                      href="https://reactjs.org/"
+                      target="_blank"
+                      style={{ textDecoration: "none", color: "#e8e8e8" }}
+                    >
                       <span className="logoditext">
-                        ReactJS <i class="bx bxl-react" style={{ color: '#33bff4', verticalAlign: 'middle' }} />
+                        ReactJS{" "}
+                        <i
+                          class="bx bxl-react"
+                          style={{ color: "#33bff4", verticalAlign: "middle" }}
+                        />
                       </span>
                     </a>
                     . I also have a good taste in UI/UX Design

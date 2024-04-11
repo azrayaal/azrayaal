@@ -21,7 +21,7 @@ function Navbaar() {
     <Navbar className="f-top" expand="lg">
       {/* <div className="container-fluid"> */}
       <CustomLink to="/" className="text-light navbarlogo">
-        <img src={logo} alt="" className="logoazra" />
+        {/* <img src={logo} alt="" className="logoazra" /> */}
       </CustomLink>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-togler" />
       <Navbar.Collapse id="basic-navbar-nav">

@@ -52,13 +52,22 @@ export default function Dasboard() {
           <div class="container">
             <div class="dashboardHome">
               <span className="pb-5">
-                <p class="glitch text " ref={hiTextRef}>
-                  HI
+                <p class="TitlePage" >
+                Azra Yazid
                 </p>
-                <span className="typewritter fs-4 ">
+                <p class="fs-5">Full stack   <span style={{ color: '#33bff4' }}> developer</span></p>
+                    
+              
+                {/* <p class="glitch text " ref={hiTextRef}>
+                  AZRA
+                </p> */}
+                {/* <span className="typewritter fs-4 ">
                   <Typewriter words={['I am Azra Yazid', 'A Fullstack Web Developer']} loop={false} cursor cursorStyle="_" typeSpeed={90} deleteSpeed={50} delaySpeed={2000} />
-                </span>
+                </span> */}
+            
+                <br /> 
                 <br />
+                {/* <p className='pt-4 text-xl'>Azra Yazid</p> */}
                 <Link to="/about">
                   <i className="fs-1 bx bx-right-arrow-alt tombolHome" ref={arrowRef}></i>
                 </Link>

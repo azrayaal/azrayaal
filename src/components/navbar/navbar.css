@@ -8,6 +8,9 @@
 } */
 .f-top {
   background-color: #111827;
+  /* background-color: red; */
+  position: absolute ;
+  width: 100%;
 }
 
 .logoazra {

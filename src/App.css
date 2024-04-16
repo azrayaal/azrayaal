@@ -3,11 +3,19 @@
   /* background-color: #212121; */
   /* background-color: #e8e8e8; */
   background-color: #111827;
-  min-height: 87vh;
-  /* background-color: #2e3440; */
-  max-height: 100%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* background-color: yellow; */
+  min-height: 100vh;
 }
 
+.TitlePage {
+  letter-spacing: .4rem;
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 /* loader ORBIT */
 /* .loader { */
 /* background-color: #111827; */

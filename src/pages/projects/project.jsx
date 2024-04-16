@@ -102,7 +102,8 @@ export default function Project() {
             <div class="row align-items-center">
               <div class="dashboardProjects">
                 <span>
-                  <p class="glitch" ref={textProjectRef}>
+                  {/* <p class="glitch" ref={textProjectRef}> */}
+                  <p class="TitlePage" ref={textProjectRef}>
                     projects
                   </p>
                   <p class="fs-5" ref={detailTextRef}>

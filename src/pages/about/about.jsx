@@ -151,11 +151,9 @@ export default function About() {
                     <span style={{ color: "#33bff4" }}> & </span>
                     resume
                   </p>
-                  <br />
-                  <br />
                   <a onClick={aboutnih}>
                     <i
-                      class="bx bxs-down-arrow-alt  fs-1"
+                      class="bx bxs-down-arrow-alt fs-1 tombolHome"
                       ref={dashboardButton}
                     />
                   </a>

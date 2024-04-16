@@ -2,18 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 85vh; */
-  padding-top: 5rem;
+  padding-top: 9rem;
   color: white;
-}
-
-
-
-.TitlePage {
-  letter-spacing: .4rem;
-  font-size: 4rem;
-  font-weight: bold;
-  text-transform: uppercase;
 }
 
 /* .text {
@@ -23,7 +13,7 @@
 .tombolHome {
   text-decoration: none;
   color: #e0e0e0;
-  padding-top: 50px;
+  /* padding-top: 50px; */
   opacity: 0;
 }
 

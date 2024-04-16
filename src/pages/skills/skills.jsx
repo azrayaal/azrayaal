@@ -136,8 +136,10 @@ export default function Skills() {
             <div class="row align-items-center">
               <div class="dashboardSkills">
                 <span>
-                  <p class="glitch" ref={textSkillsRef}>
+                  {/* <p class="glitch" ref={textSkillsRef}> */}
+                  <p class="TitlePage" ref={textSkillsRef}>
                     skills
+                    {/* TitlePage */}
                   </p>
                   <p class="fs-5" ref={detailsRef}>
                     techs

@@ -172,7 +172,7 @@ export default function Skills() {
                       <a href="https://nodejs.org/en" target="_blank" style={{ textDecoration: 'none', color: '#e8e8e8' }}>
                         {' '}
                         <span className="logoditext">
-                          NodeJs <i class="bx bxl-nodejs" style={{ color: '#35bd02', verticalAlign: 'middle' }} />
+                          NodeJS <i class="bx bxl-nodejs" style={{ color: '#35bd02', verticalAlign: 'middle' }} />
                         </span>
                       </a>
                       for Back End. Below are some of the languages, frameworks, or libraries that I use:

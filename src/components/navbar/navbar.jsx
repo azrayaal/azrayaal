@@ -26,6 +26,7 @@ function Navbaar() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-togler" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto" id="navbarasli">
+          <CustomLink to="/">Home</CustomLink>
           <CustomLink to="/about">About</CustomLink>
           <CustomLink to="/skills">Skills</CustomLink>
           <CustomLink to="/project">Projetcs</CustomLink>

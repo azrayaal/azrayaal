@@ -141,7 +141,8 @@ export default function About() {
                   </a>
                 </span>
               </div> */}
-              <div class="dashboardHome">
+              {/* <div class="dashboardHome"> */}
+              <div class="dashboardProjects">
                 <span className="pb-5">
                   <p class="TitlePage" ref={dashboardRef}>
                     about{" "}
@@ -167,24 +168,11 @@ export default function About() {
               className="row align-items-center fadeInAbout"
               ref={fadeinAboutRef}
             >
+             
               <div class="dashboardAbout ">
                 <span>
                   <div id="aboutnih" className="fs-4">
-                    I am enjoy building web apps using{" "}
-                    <a
-                      href="https://www.javascript.com/"
-                      target="_blank"
-                      style={{ textDecoration: "none", color: "#e8e8e8" }}
-                    >
-                      <span className="logoditext">
-                        Javascript{" "}
-                        <i
-                          class="bx bxs-file-js"
-                          style={{ color: "#fcdc00" }}
-                        />
-                      </span>
-                    </a>
-                    and
+                    I enjoy building applications using
                     <a
                       href="https://reactjs.org/"
                       target="_blank"
@@ -198,7 +186,14 @@ export default function About() {
                         />
                       </span>
                     </a>
-                    . I also have a good taste in UI/UX Design
+                    for the Frond End and
+                    <a href="https://nodejs.org/en" target="_blank" style={{ textDecoration: 'none', color: '#e8e8e8' }}>
+                        {' '}
+                        <span className="logoditext">
+                          NodeJS <i class="bx bxl-nodejs" style={{ color: '#35bd02', verticalAlign: 'middle' }} />
+                        </span>
+                      </a>
+                          for the Back End
                   </div>
                   <button className="btnCV mt-3 mb-4 " onClick={onButtonClick}>
                     <span>

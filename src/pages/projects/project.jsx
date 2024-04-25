@@ -107,7 +107,7 @@ export default function Project() {
                     projects
                   </p>
                   <p class="fs-5" ref={detailTextRef}>
-                    websites
+                    something
                     <span style={{ color: '#33bff4' }}> that </span>I build
                   </p>
                   <a class="buttonkebawah" onClick={prjekKartu}>

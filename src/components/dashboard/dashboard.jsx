@@ -50,7 +50,8 @@ export default function Dasboard() {
       <div className="dashboard">
         <section class="about-us pt-5">
           <div class="container">
-            <div class="dashboardHome">
+            <div class="dashboardProjects">
+            {/* <div class="dashboardHome"> */}
               <span className="pb-5">
                 <p class="TitlePage" >
                 Azra Yazid

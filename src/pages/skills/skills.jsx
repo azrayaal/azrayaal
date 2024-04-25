@@ -175,22 +175,29 @@ export default function Skills() {
                           NodeJS <i class="bx bxl-nodejs" style={{ color: '#35bd02', verticalAlign: 'middle' }} />
                         </span>
                       </a>
-                      for Back End. Below are some of the languages, frameworks, or libraries that I use:
+                      for Back End. Below are some of the technologies that I use:
                     </div>
-                    <div className="logobahasa">
+                    <div className="logobahasa pb-5">
                       <CardsBahasa />
                     </div>
                     {/* <div data-aos="flip-down"> */}
-                    <a class="buttonkebawahskills" onClick={skill2}>
+                    {/* <a class="buttonkebawahskills" onClick={skill2}>
                       <i class="bx bxs-down-arrow-alt fs-1" />
-                    </a>
+                    </a> */}
+                    {/* <a class="buttonkebawahskills" onClick={skill2}>
+                      <i class="bx bxs-down-arrow-alt fs-1" />
+                    </a> */}
+                    <Link class="tombolSkills" to="/project">
+                      <span className="textskill">projects</span>
+                      <i class="bx bx-right-arrow-alt "></i>
+                    </Link>
                     {/* </div> */}
                   </span>
                 </div>
               </div>
             </div>
             {/* //////////////// */}
-            <div className="row align-items-center fadeInSkills" ref={dashboardSkill2Ref}>
+            {/* <div className="row align-items-center fadeInSkills" ref={dashboardSkill2Ref}>
               <div class="dashboardSkill3  " id="skill2">
                 <span>
                   <div className="fs-4">I use these tools for building an interactive websites:</div>
@@ -203,7 +210,7 @@ export default function Skills() {
                   </div>
                 </span>
               </div>
-            </div>
+            </div> */}
             {/* //////////////// */}
           </div>
         </section>

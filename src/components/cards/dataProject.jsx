@@ -18,6 +18,36 @@ import ambd from './AMBD.png';
 const data = {
   projects: [
     {
+      id: 4,
+      name: 'SpaceS',
+      href: 'https://www.filmreview.azrayaal.space/',
+      src: filmReview,
+      year: '2022',
+      logo: [<box-icon type="logo" className="" color="#3db8b8" name="react" />, <box-icon name="bootstrap" type="logo" color="#52377C" />],
+      desc: '<p>Azrayaal movie review is a website that helps you to find Trending movies, series, or box offices based on OMDB</p><p>This website was developed by using <strong>React </strong>and <strong>Bootstrap</strong>.</p>',
+      tombolshow: false,
+    },
+    {
+      id: 4,
+      name: 'Teka',
+      href: 'https://www.filmreview.azrayaal.space/',
+      src: filmReview,
+      year: '2022',
+      logo: [<box-icon type="logo" className="" color="#3db8b8" name="react" />, <box-icon name="bootstrap" type="logo" color="#52377C" />],
+      desc: '<p>Azrayaal movie review is a website that helps you to find Trending movies, series, or box offices based on OMDB</p><p>This website was developed by using <strong>React </strong>and <strong>Bootstrap</strong>.</p>',
+      tombolshow: false,
+    },
+    {
+      id: 4,
+      name: 'E-commerce',
+      href: 'https://www.filmreview.azrayaal.space/',
+      src: filmReview,
+      year: '2022',
+      logo: [<box-icon type="logo" className="" color="#3db8b8" name="react" />, <box-icon name="bootstrap" type="logo" color="#52377C" />],
+      desc: '<p>Azrayaal movie review is a website that helps you to find Trending movies, series, or box offices based on OMDB</p><p>This website was developed by using <strong>React </strong>and <strong>Bootstrap</strong>.</p>',
+      tombolshow: false,
+    },
+    {
       id: 1,
       name: 'Azrayaal GG store',
       nameThumbnail: [

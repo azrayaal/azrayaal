@@ -11,39 +11,27 @@ import node from './node-js.png';
 import mysql from './mysql.png';
 import wordpress from './wordpress_PNG74.png';
 import nextjs from './nextgelapan.png';
-import redux from './redux.png';
+import redux from './redux.png';  
+import pgsql from './Postgresql.png';  
+import redis from './redis.png';  
+import golang from './golang.png';  
+import laravel from './laravel.png';  
 import './cardsBahasa.css';
 import AOS from 'aos';
 import { useEffect } from 'react';
 
 const kartubahasa = [
-  {
-    // href: 'https://leisureblogwp.azrayaal.space/',
-    src: html,
-  },
-  {
-    // href: 'https://leisureblogwp.azrayaal.space/',
-    src: css,
-  },
+  // {
+  //   // href: 'https://leisureblogwp.azrayaal.space/',
+  //   src: html,
+  // },
+  // {
+  //   // href: 'https://leisureblogwp.azrayaal.space/',
+  //   src: css,
+  // },
   {
     href: 'https://www.javascript.com/',
     src: js,
-  },
-  {
-    href: 'https://getbootstrap.com/docs/5.1/getting-started/introduction/',
-    src: bootstrap,
-  },
-  {
-    href: 'https://tailwindui.com/',
-    src: tailwind,
-  },
-  {
-    href: 'https://www.mongodb.com/atlas/database',
-    src: mongo,
-  },
-  {
-    href: 'https://expressjs.com/',
-    src: express,
   },
   {
     href: 'https://reactjs.org/',
@@ -54,17 +42,53 @@ const kartubahasa = [
     src: nextjs,
   },
   {
+    href: 'https://expressjs.com/',
+    src: express,
+  },
+  {
     href: 'https://nodejs.org/en/',
     src: node,
+  },
+  {
+    href: 'https://getbootstrap.com/docs/5.1/getting-started/introduction/',
+    src: bootstrap,
+  },
+  {
+    href: 'https://tailwindui.com/',
+    src: tailwind,
+  },
+  {
+    href: 'https://wordpress.org/',
+    src: wordpress,
+  },
+  {
+    href: 'https://wordpress.org/',
+    src: redux,
+  },
+  {
+    href: 'https://wordpress.org/',
+    src: laravel, //laravel
+  },
+  {
+    href: 'https://wordpress.org/',
+    src: golang, //golang
+  },
+  {
+    href: 'https://www.mongodb.com/atlas/database',
+    src: mongo,
   },
   {
     href: 'https://www.mysql.com/',
     src: mysql,
   },
   {
-    href: 'https://wordpress.org/',
-    src: wordpress,
+    href: 'https://www.mysql.com/',
+    src: pgsql, //pgsql
   },
+  {
+    href: 'https://www.mysql.com/',
+    src: redis, //redish
+  }, 
 ];
 
 export default function CardsBahasa() {

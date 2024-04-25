@@ -158,14 +158,24 @@ export default function Skills() {
                 <div class="dashboardSkills2 ">
                   <span>
                     <div id="aboutskill1" className="fs-4">
-                      I have learned programming websites since 2020, and continue to use some library or framework for building website, currently I am using
+                      {/* I have learned programming websites since 2020, and continue to use some library or framework for building website, currently I am using */}
+
+                      I have been learning website programming since 2020 and continue to use various libraries or frameworks for building websites. Currently, I am using
                       <a href="https://reactjs.org/" target="_blank" style={{ textDecoration: 'none', color: '#e8e8e8' }}>
                         {' '}
                         <span className="logoditext">
                           ReactJS <i class="bx bxl-react" style={{ color: '#33bff4', verticalAlign: 'middle' }} />
                         </span>
                       </a>
-                      for build websites, and below are some languages, frameworks or libraries that I use:
+                      {/* for build websites, and below are some languages, frameworks or libraries that I use: */}
+                      for Front End, and 
+                      <a href="https://nodejs.org/en" target="_blank" style={{ textDecoration: 'none', color: '#e8e8e8' }}>
+                        {' '}
+                        <span className="logoditext">
+                          NodeJs <i class="bx bxl-nodejs" style={{ color: '#35bd02', verticalAlign: 'middle' }} />
+                        </span>
+                      </a>
+                      for Back End. Below are some of the languages, frameworks, or libraries that I use:
                     </div>
                     <div className="logobahasa">
                       <CardsBahasa />

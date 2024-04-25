@@ -8,13 +8,15 @@
   align-items: center; */
   /* background-color: yellow; */
   min-height: 100vh;
+
 }
 
 .TitlePage {
-  letter-spacing: .4rem;
+  letter-spacing: .2rem;
   font-size: 4rem;
   font-weight: bold;
   text-transform: uppercase;
+  
 }
 /* loader ORBIT */
 /* .loader { */

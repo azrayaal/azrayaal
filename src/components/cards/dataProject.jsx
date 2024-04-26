@@ -13,6 +13,7 @@ import thumbnailStore from './thumbnailMERNstore.png';
 import thumbnailEvent from './thumbnailMERNLeisure.png';
 import galaxly from './galaxly.png';
 import ambd from './AMBD.png';
+import spaces from './spaces.png';
 // import { box-icon } from 'boxicons';
 
 const data = {
@@ -21,8 +22,8 @@ const data = {
       id: 4,
       name: 'SpaceS',
       href: 'https://www.filmreview.azrayaal.space/',
-      src: filmReview,
-      year: '2022',
+      src: spaces,
+      year: '2024',
       logo: [<box-icon type="logo" className="" color="#3db8b8" name="react" />, <box-icon name="bootstrap" type="logo" color="#52377C" />],
       desc: '<p>Azrayaal movie review is a website that helps you to find Trending movies, series, or box offices based on OMDB</p><p>This website was developed by using <strong>React </strong>and <strong>Bootstrap</strong>.</p>',
       tombolshow: false,

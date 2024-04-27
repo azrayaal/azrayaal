@@ -21,8 +21,8 @@ const data = {
   projects: [
     {
       id: 4,
-      name: 'SpaceS',
-      href: 'https://www.filmreview.azrayaal.space/',
+      name: 'space',
+      href: 'https://space-theta-five.vercel.app/',
       src: spaces,
       year: '2024',
       logo: [<box-icon type="logo" className="" color="#3db8b8" name="react" />, <box-icon name="nodejs" type="logo" color="#80cd2e"></box-icon>, 

@@ -31,11 +31,11 @@ export default function CardsProject() {
   const renderHTML = (rawHTML) => React.createElement('div', { dangerouslySetInnerHTML: { __html: rawHTML } });
 
   return (
-    <div className="containerProjek ">
+    <div className="containerProjek " >
       <div class="row g-3" data-aos="fade-up">
         {data.projects.map((item, index) => (
           <div class="col-lg-4 col-md-6 col-12 " key={index} href={item.href} src={item.src}>
-            <Card className="kartuProjek" style={{ width: '18rem' }}>
+            <Card className="kartuProjek" style={{ width: '18rem' }}     onClick={() => getData(item.name, item.href, item.year, item.logo, item.src, item.desc, item.name2, item.src2, item.logo2, item.desc2, item.href2, item.tombolshow, item.nameThumbnail, item.logoThumbnail)}>
               {!item.thumbnailsrc ? <img className="p-2" variant="top" src={item.src} style={{ borderRadius: '15px' }} /> : <img className="p-2" variant="top" src={item.thumbnailsrc} style={{ borderRadius: '15px' }} />}
               {/* <img className="p-2" variant="top" src={item.src} style={{ borderRadius: '15px' }} /> */}
               <div className="judulproject">

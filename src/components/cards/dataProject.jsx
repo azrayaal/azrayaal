@@ -34,30 +34,30 @@ const data = {
       desc: 'SpaceS is a social media platform inspired by Twitter. It functions similarly to Twitter, allowing users to post content. Spaces are created using <strong>React </strong>for the frontend and <strong>Node.js </strong>for the backend, with <strong>PostgreSQL </strong> as the database.',
       tombolshow: false,
     },
-    {
-      id: 4,
-      name: 'Teka',
-      href: 'https://www.filmreview.azrayaal.space/',
-      src: filmReview,
-      year: '2024',
-      logo: [
+    // {
+    //   id: 4,
+    //   name: 'Teka',
+    //   href: 'https://www.filmreview.azrayaal.space/',
+    //   src: filmReview,
+    //   year: '2024',
+    //   logo: [
        
-      <box-icon name="nodejs" type="logo" color="#80cd2e"></box-icon>,
-      //socket.io
-    ],
-      desc: '<p>Azrayaal movie review is a website that helps you to find Trending movies, series, or box offices based on OMDB</p><p>This website was developed by using <strong>React </strong>and <strong>Bootstrap</strong>.</p>',
-      tombolshow: false,
-    },
-    {
-      id: 4,
-      name: 'E-commerce',
-      href: 'https://www.filmreview.azrayaal.space/',
-      src: filmReview,
-      year: '2024',
-      logo: [<box-icon type="logo" className="" color="#3db8b8" name="react" />,        <box-icon name="tailwind-css" type="logo" color="#0ed3cf" />],
-      desc: '<p>Azrayaal movie review is a website that helps you to find Trending movies, series, or box offices based on OMDB</p><p>This website was developed by using <strong>React </strong>and <strong>Bootstrap</strong>.</p>',
-      tombolshow: false,
-    },
+    //   <box-icon name="nodejs" type="logo" color="#80cd2e"></box-icon>,
+    //   //socket.io
+    // ],
+    //   desc: '<p>Azrayaal movie review is a website that helps you to find Trending movies, series, or box offices based on OMDB</p><p>This website was developed by using <strong>React </strong>and <strong>Bootstrap</strong>.</p>',
+    //   tombolshow: false,
+    // },
+    // {
+    //   id: 4,
+    //   name: 'E-commerce',
+    //   href: 'https://www.filmreview.azrayaal.space/',
+    //   src: filmReview,
+    //   year: '2024',
+    //   logo: [<box-icon type="logo" className="" color="#3db8b8" name="react" />,        <box-icon name="tailwind-css" type="logo" color="#0ed3cf" />],
+    //   desc: '<p>Azrayaal movie review is a website that helps you to find Trending movies, series, or box offices based on OMDB</p><p>This website was developed by using <strong>React </strong>and <strong>Bootstrap</strong>.</p>',
+    //   tombolshow: false,
+    // },
     {
       id: 1,
       name: 'Azrayaal GG store',

@@ -14,10 +14,13 @@
 
 figure {
   height: 450px;
-
+  margin-top: 40px;
   overflow: hidden;
   position: relative;
-  border-radius: 10px;
+  border-radius: 1000px;
+  border-color: #45cefb;
+  border-radius: 20px;
+  box-shadow: 0 0px 18px 0 #45cefb;
 }
 
 .media {
@@ -134,9 +137,9 @@ figure {
   animation: scaleUp 0.3s ease-in-out;
 }
 
-figure:hover .media {
+/* figure:hover .media {
   transform: scale(1.05);
-}
+} */
 
 figcaption {
   height: 'calc(100% - 20px)';
@@ -157,7 +160,7 @@ figcaption {
   padding: 15px;
   position: absolute;
   width: 100%;
-  shadow: 10px;
+  /* box-shadow: 10px; */
   text-align: justify;
 }
 

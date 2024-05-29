@@ -6,7 +6,9 @@
 - 📖 I’m currently learning Next, and Typescript  
   
 
-- ❓ Ask me about anything related to MERN stack and related technologies  
+- ❓ Ask me about anything related to MERN stack and related technologies
+
+- more about me: https://azrayaal.vercel.app/
 
 <br/>  
 

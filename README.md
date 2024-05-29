@@ -8,7 +8,7 @@
 
 - ❓ Ask me about anything related to MERN stack and related technologies
 
-- more about me: https://azrayaal.vercel.app/
+- More about me: https://azrayaal.vercel.app/
 
 <br/>  
 

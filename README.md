@@ -1,6 +1,6 @@
 
 
-## Hi!! It's Azra🧐, a full-time full-stack freelance developer 👨‍💻
+## Hi!! It's Azra🧐, full-stack developer 👨‍💻
   
 
 - 📖 I’m currently learning Next, and Typescript  

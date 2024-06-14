@@ -1,4 +1,4 @@
-### <div align="center">Hi!! It's Azra🧐, full-stack developer 👨‍💻</div>  
+### <div align="center">Hi!! It's Azra🧐, a full-stack developer 👨‍💻</div>  
   
 
 - 🔭 I’m currently working as Back-end Developer  
